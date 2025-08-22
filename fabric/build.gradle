@@ -1,0 +1,53 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+import org.mtr.mod.BuildTools
+
+plugins {
+	id "fabric-loom" version "1.10-SNAPSHOT"
+}
+
+final BuildTools buildTools = new BuildTools(minecraftVersion, "fabric", project)
+
+loom {
+	runConfigs.configureEach { ideConfigGenerated = true }
+}
+
+repositories {
+
+	maven { url = "https://maven.ziyuesinicization.site/releases/" }
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${minecraftVersion}"
+	mappings "net.fabricmc:yarn:${buildTools.getYarnVersion()}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${buildTools.getFabricVersion()}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${buildTools.getFabricApiVersion()}"
+	modImplementation "org.mtr:MTR-fabric:${mtrVersion}+${minecraftVersion}"
+	modImplementation "com.lx862.jcm:JCM-fabric:${jcmVersion}+${minecraftVersion}"
+	modApi("ziyue.filters:filters-fabric:${filterAPIVersion}+${minecraftVersion}") {
+		exclude(group: "net.fabricmc")
+	}
+}
+
+java {
+	toolchain {
+		languageVersion.set(JavaLanguageVersion.of(buildTools.javaLanguageVersion))
+	}
+	withSourcesJar()
+	withJavadocJar()
+}
+
+tasks.register("setupFiles") {
+	copy {
+		outputs.upToDateWhen { false }
+		from "src/main/fabric.mod.template.json"
+		into "src/main/resources"
+		filter(ReplaceTokens, tokens: ["minecraft": minecraftVersion, "version": version])
+		rename "(.+).template.json", "\$1.json"
+	}
+}
+
+build {
+	doLast {
+		buildTools.copyBuildFile()
+	}
+}

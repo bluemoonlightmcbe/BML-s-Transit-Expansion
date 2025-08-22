@@ -1,0 +1,27 @@
+plugins {
+    id "java"
+}
+
+group "net.bte"
+version rootProject.properties.version
+
+subprojects {
+    apply plugin: "java"
+
+    dependencies {
+        compileOnly "com.google.code.findbugs:jsr305:+"
+    }
+
+    repositories {
+        flatDir { dirs "../libs" }
+        maven { url "https://jitpack.io" }
+    }
+
+    tasks.withType(Javadoc).tap {
+        configureEach { javadoc.options.addStringOption("Xdoclint:none", "-quiet") }
+    }
+
+    compileJava {
+        options.encoding = 'UTF-8'
+    }
+}

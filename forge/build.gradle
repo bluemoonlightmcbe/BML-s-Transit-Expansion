@@ -1,0 +1,91 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+import org.mtr.mod.BuildTools
+
+plugins {
+	id "net.minecraftforge.gradle" version "6.+"
+	id "org.spongepowered.mixin" version "+"
+}
+
+
+final BuildTools buildTools = new BuildTools(minecraftVersion, "forge", project)
+
+minecraft {
+	mappings channel: "official", version: minecraftVersion
+	runs {
+		configureEach {
+			property "forge.logging.markers", "REGISTRIES"
+			property "forge.logging.console.level", "debug"
+		}
+		client {}
+		server { args "--nogui" }
+	}
+}
+
+sourceSets.main.resources { srcDir "src/generated/resources" }
+/*repositories {
+	maven { url = "https://maven.ziyuesinicization.site/releases/" }
+}*/
+
+
+dependencies {
+	minecraft "net.minecraftforge:forge:${minecraftVersion}-${buildTools.getForgeVersion()}"
+	annotationProcessor "org.spongepowered:mixin:+:processor"
+	implementation fg.deobf("org.mtr:MTR-forge:${mtrVersion}+${minecraftVersion}")
+	implementation fg.deobf("com.lx862.jcm:JCM-forge:${jcmVersion}+${minecraftVersion}")
+	/*implementation(fg.deobf("ziyue.filters:filters-forge:${filterAPIVersion}+${minecraftVersion}")) {
+		exclude(group: "net.minecraftforge")
+	}*/
+}
+
+mixin {
+	add sourceSets.main, "mtr.refmap.json"
+	config "mtr.mixins.json"
+	debug.verbose = true
+	debug.export = true
+}
+
+java {
+	toolchain {
+		languageVersion.set(JavaLanguageVersion.of(buildTools.javaLanguageVersion))
+	}
+	withSourcesJar()
+	withJavadocJar()
+}
+
+tasks.register("setupFiles") {
+	copy {
+		outputs.upToDateWhen { false }
+		from "src/main/mods.template.toml"
+		into "src/main/resources/META-INF"
+		filter(ReplaceTokens, tokens: ["minecraft": minecraftVersion, "version": version])
+		rename "(.+).template.toml", "\$1.toml"
+	}
+
+	delete fileTree("src/main/java/net/bte/mod")
+	delete fileTree("src/main/resources/assets")
+	delete fileTree("src/main/resources/data")
+
+	copy {
+		outputs.upToDateWhen { false }
+		from "../fabric/src/main/java/net/bte/mod"
+		into "src/main/java/net/bte/mod"
+	}
+
+	copy {
+		outputs.upToDateWhen { false }
+		from "../fabric/src/main/resources/assets"
+		into "src/main/resources/assets"
+	}
+
+	copy {
+		outputs.upToDateWhen { false }
+		from "../fabric/src/main/resources/data"
+		into "src/main/resources/data"
+	}
+}
+
+build {
+	doLast {
+		buildTools.copyBuildFile()
+	}
+}

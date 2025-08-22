@@ -1,0 +1,6 @@
+{
+    "parent": "bte:block/platform_iron_block",
+    "textures": {
+        "top": "mtr:block/transparent"
+    }
+}

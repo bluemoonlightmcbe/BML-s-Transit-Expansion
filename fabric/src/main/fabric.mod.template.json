@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "bte",
+	"version": "@version@",
+	"name": "BML's Transit Expansion",
+	"description": "A mod for the Minecraft Transit Railway mod and add somethings that mainly about platform",
+	"authors": [
+		"BML"
+	],
+	"license": "LGPL-3.0",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bte.init.MainFabric"
+		],
+		"client": [
+			"net.bte.init.MainFabricClient"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabric": "*",
+		"minecraft": "@minecraft@",
+		"mtr": ">=4.0.0 <4.1",
+		"jsblock": ">=2.0.0 <2.1",
+		"filters": ">=1.0.0"
+	}
+}

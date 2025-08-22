@@ -1,0 +1,9 @@
+ {
+    "parent": "mtr:block/platform_base_indented",
+    "textures": {
+        "main": "bte:block/light_blue_smooth_quartz",
+        "inner": "bte:block/light_blue_smooth_quartz",
+        "front": "bte:block/light_blue_smooth_quartz",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

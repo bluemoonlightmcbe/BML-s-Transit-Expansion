@@ -1,0 +1,6 @@
+{
+    "parent": "bte:block/platform_smooth_basalt",
+    "textures": {
+        "top": "mtr:block/platform_hk_2"
+    }
+}

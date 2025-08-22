@@ -1,0 +1,6 @@
+{
+    "parent": "bte:block/platform_light_blue_smooth_quartz",
+    "textures": {
+        "top": "mtr:block/transparent"
+    }
+}

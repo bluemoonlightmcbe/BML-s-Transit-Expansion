@@ -1,0 +1,9 @@
+ {
+    "parent": "mtr:block/platform_base_indented",
+    "textures": {
+        "main": "bte:block/smooth_basalt",
+        "inner": "bte:block/smooth_basalt",
+        "front": "bte:block/smooth_basalt",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

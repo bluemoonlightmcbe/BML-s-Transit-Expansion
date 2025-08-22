@@ -1,0 +1,7 @@
+{
+    "parent": "mtr:block/platform_base",
+    "textures": {
+        "main": "bte:block/light_blue_quartz_block",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

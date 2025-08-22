@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bte:item/gate_glass_fence_plain"
+  }
+}

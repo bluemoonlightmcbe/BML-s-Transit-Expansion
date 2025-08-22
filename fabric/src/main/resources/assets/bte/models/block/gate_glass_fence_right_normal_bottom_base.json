@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"metal": "mtr:block/metal"
+	},
+	"elements": [
+		{
+			"name": "Glass section 1",
+			"from": [4.5, 15, 1],
+			"to": [15.5, 16, 1],
+			"faces": {
+				"north": {"uv": [0, 2, 16, 1], "texture": "#particle"},
+				"south": {"uv": [0, 2, 16, 1], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Glass section 2",
+			"from": [4.5, 1, 1],
+			"to": [15.5, 15, 1],
+			"faces": {
+				"north": {"uv": [0, 1, 16, 16], "texture": "#particle"},
+				"south": {"uv": [0, 1, 16, 16], "texture": "#particle"}
+			}
+		},
+		{
+			"name": "Left side",
+			"from": [4, 0, 0],
+			"to": [4.5, 16, 3],
+			"faces": {
+				"north": {"uv": [15.5, 0, 16, 16], "texture": "#metal"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 16], "texture": "#metal"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 3], "texture": "#metal"},
+				"down": {"uv": [0, 13, 0.5, 16], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Right side",
+			"from": [15.5, 0, 0],
+			"to": [16, 16, 3],
+			"faces": {
+				"north": {"uv": [4, 0, 4.5, 16], "texture": "#metal"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#metal"},
+				"south": {"uv": [11.5, 0, 12, 16], "texture": "#metal"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#metal"},
+				"up": {"uv": [11.5, 0, 12, 3], "texture": "#metal"},
+				"down": {"uv": [11.5, 13, 12, 16], "texture": "#metal"}
+			}
+		}
+	]
+}

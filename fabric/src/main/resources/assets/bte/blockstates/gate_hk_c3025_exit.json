@@ -1,0 +1,124 @@
+{
+	"variants": {
+		"facing=north,notcover=true,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed"
+		},
+		"facing=east,notcover=true,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed",
+			"y": 90
+		},
+		"facing=south,notcover=true,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed",
+			"y": 180
+		},
+		"facing=west,notcover=true,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed",
+			"y": 270
+		},
+		"facing=north,notcover=true,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=true,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 90
+		},
+		"facing=south,notcover=true,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 180
+		},
+		"facing=west,notcover=true,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 270
+		},
+		"facing=north,notcover=true,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=true,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 90
+		},
+		"facing=south,notcover=true,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 180
+		},
+		"facing=west,notcover=true,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 270
+		},
+		"facing=north,notcover=true,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=true,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 90
+		},
+		"facing=south,notcover=true,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 180
+		},
+		"facing=west,notcover=true,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open",
+			"y": 270
+		},
+		"facing=north,notcover=false,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed"
+		},
+		"facing=east,notcover=false,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed_cover",
+			"y": 90
+		},
+		"facing=south,notcover=false,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed_cover",
+			"y": 180
+		},
+		"facing=west,notcover=false,open=closed": {
+			"model": "bte:block/gate_hk_c3025_exit_closed_cover",
+			"y": 270
+		},
+		"facing=north,notcover=false,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=false,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 90
+		},
+		"facing=south,notcover=false,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 180
+		},
+		"facing=west,notcover=false,open=open": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 270
+		},
+		"facing=north,notcover=false,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=false,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 90
+		},
+		"facing=south,notcover=false,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 180
+		},
+		"facing=west,notcover=false,open=open_concessionary": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 270
+		},
+		"facing=north,notcover=false,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open"
+		},
+		"facing=east,notcover=false,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 90
+		},
+		"facing=south,notcover=false,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 180
+		},
+		"facing=west,notcover=false,open=pending": {
+			"model": "bte:block/gate_hk_c3025_exit_open_cover",
+			"y": 270
+		}
+	}
+}

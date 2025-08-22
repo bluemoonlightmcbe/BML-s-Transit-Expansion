@@ -1,0 +1,84 @@
+{
+  "itemGroup.bte.gate": "閘機",
+
+  "block.bte.gate_glass_fence_plain": "玻璃柵欄(左)(閘機專用)",
+  "block.bte.gate_glass_fence_right_plain": "玻璃柵欄(右)(閘機專用)",
+
+  "block.bte.gate_hk_c3025": "C3025閘機(入口)",
+  "block.bte.gate_hk_c3025_exit": "C3025閘機(出口)",
+  "block.bte.gate_hk_c3025_cover": "C3025閘機(側蓋)",
+  "block.bte.gate_hk_c3025_wide": "C3025闊閘機(入口)",
+  "block.bte.gate_hk_c3025_wide_exit": "C3025闊閘機(出口)",
+
+
+  "itemGroup.bte.platform": "月台方塊",
+
+  "itemGroup.bte.platform.block": "月台方塊",
+  "itemGroup.bte.platform.indented": "月台方塊(indented)",
+  "itemGroup.bte.platform.slab": "月台半磚",
+
+  "block.bte.platform_yellow_concrete": "月台方塊 （黃色混凝土）",
+  "block.bte.platform_yellow_concrete_indented": "月台方塊 （黃色混凝土）",
+  "block.bte.platform_yellow_concrete_slab": "月台半磚 （黃色混凝土）",
+
+  "block.bte.platform_quartz_block": "月台方塊 （石英）",
+  "block.bte.platform_quartz_block_indented": "月台方塊 （石英）",
+  "block.bte.platform_quartz_block_slab": "月台半磚 （石英）",
+
+  "block.bte.platform_smooth_quartz": "月台方塊 （平滑石英）",
+  "block.bte.platform_smooth_quartz_indented": "月台方塊 （平滑石英）",
+  "block.bte.platform_smooth_quartz_slab": "月台半磚 （平滑石英）",
+
+  "block.bte.platform_yellow_quartz_block": "月台方塊 （黃色石英）",
+  "block.bte.platform_yellow_quartz_block_indented": "月台方塊 （黃色石英）",
+  "block.bte.platform_yellow_quartz_block_slab": "月台半磚 （黃色石英）",
+
+  "block.bte.platform_yellow_smooth_quartz": "月台方塊 （黃色平滑石英）",
+  "block.bte.platform_yellow_smooth_quartz_indented": "月台方塊 （黃色平滑石英）",
+  "block.bte.platform_yellow_smooth_quartz_slab": "月台半磚 （黃色平滑石英）",
+
+  "block.bte.platform_light_blue_quartz_block": "月台方塊 （藍色石英）",
+  "block.bte.platform_light_blue_quartz_block_indented": "月台方塊 （藍色石英）",
+  "block.bte.platform_light_blue_quartz_block_slab": "月台半磚 （藍色石英）",
+
+  "block.bte.platform_light_blue_smooth_quartz": "月台方塊 （藍色平滑石英）",
+  "block.bte.platform_light_blue_smooth_quartz_indented": "月台方塊 （藍色平滑石英）",
+  "block.bte.platform_light_blue_smooth_quartz_slab": "月台半磚 （藍色平滑石英）",
+
+  "block.bte.platform_iron_block": "月台方塊 （鐵方塊）",
+  "block.bte.platform_iron_block_indented": "月台方塊 （鐵方塊）",
+  "block.bte.platform_iron_block_slab": "月台半磚 （鐵方塊）",
+
+  "block.bte.platform_bamboo_planks": "月台方塊 （竹材）",
+  "block.bte.platform_bamboo_planks_indented": "月台方塊 （竹材）",
+  "block.bte.platform_bamboo_planks_slab": "月台半磚 （竹材）",
+
+  "block.bte.platform_calcite": "月台方塊 （方解石）",
+  "block.bte.platform_calcite_indented": "月台方塊 （方解石）",
+  "block.bte.platform_calcite_slab": "月台半磚 （方解石）",
+
+  "block.bte.platform_bone": "月台方塊 （骨塊）",
+  "block.bte.platform_bone_indented": "月台方塊 （骨塊）",
+  "block.bte.platform_bone_slab": "月台半磚 （骨塊）",
+
+  "block.bte.platform_polished_blackstone": "月台方塊 （黑石）",
+  "block.bte.platform_polished_blackstone_indented": "月台方塊 （黑石）",
+  "block.bte.platform_polished_blackstone_slab": "月台半磚 （黑石）",
+
+  "block.bte.platform_smooth_basalt": "月台方塊 （平滑玄武岩）",
+  "block.bte.platform_smooth_basalt_indented": "月台方塊 （平滑玄武岩）",
+  "block.bte.platform_smooth_basalt_slab": "月台半磚 （平滑玄武岩）",
+
+  "block.bte.platform_sea_lantern": "月台方塊 （海燈籠）",
+  "block.bte.platform_sea_lantern_indented": "月台方塊 （海燈籠）",
+  "block.bte.platform_sea_lantern_slab": "月台半磚 （海燈籠）"
+
+
+
+
+
+
+
+
+
+}

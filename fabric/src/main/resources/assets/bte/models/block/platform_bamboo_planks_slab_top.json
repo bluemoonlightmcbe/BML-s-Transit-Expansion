@@ -1,0 +1,7 @@
+{
+    "parent": "mtr:block/platform_slab_top_base",
+    "textures": {
+        "main": "bte:block/bamboo_planks",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

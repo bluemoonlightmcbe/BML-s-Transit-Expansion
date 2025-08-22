@@ -1,0 +1,334 @@
+{
+	"variants": {
+		"facing=north,type=0,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover"
+		},
+		"facing=east,type=0,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 90
+		},
+		"facing=south,type=0,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 180
+		},
+		"facing=west,type=0,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 270
+		},
+		"facing=north,type=1,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=1,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=1,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=1,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=2,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=2,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=2,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=2,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=3,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=3,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=3,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=3,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=4,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=4,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=4,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=4,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=5,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=5,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=5,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=5,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=6,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=6,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=6,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=6,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=7,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=7,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=7,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=7,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=8,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=8,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=8,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=8,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=9,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=9,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=9,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=9,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},
+		"facing=north,type=10,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base"
+		},
+		"facing=east,type=10,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 90
+		},
+		"facing=south,type=10,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 180
+		},
+		"facing=west,type=10,flipped=false": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base",
+			"y": 270
+		},		
+		"facing=north,type=0,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover"
+		},
+		"facing=east,type=0,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 90
+		},
+		"facing=south,type=0,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 180
+		},
+		"facing=west,type=0,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover",
+			"y": 270
+		},
+		"facing=north,type=1,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=1,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=1,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=1,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=2,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=2,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=2,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=2,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=3,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=3,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=3,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=3,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=4,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=4,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=4,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=4,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=5,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=5,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=5,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=5,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=6,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=6,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=6,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=6,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=7,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=7,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=7,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=7,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=8,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=8,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=8,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=8,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=9,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=9,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=9,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=9,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		},
+		"facing=north,type=10,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped"
+		},
+		"facing=east,type=10,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 90
+		},
+		"facing=south,type=10,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 180
+		},
+		"facing=west,type=10,flipped=true": {
+			"model": "bte:block/gate_hk_c3025_cover_fence_base_flipped",
+			"y": 270
+		}
+	}
+}

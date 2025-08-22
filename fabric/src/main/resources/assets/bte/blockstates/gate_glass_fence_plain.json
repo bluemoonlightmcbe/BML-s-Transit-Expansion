@@ -1,0 +1,214 @@
+{
+	"variants": {
+		"facing=north,half=lower,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=lower,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_bottom"
+		},
+		"facing=east,half=lower,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 90
+		},
+		"facing=south,half=lower,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 180
+		},
+		"facing=west,half=lower,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_bottom",
+			"y": 270
+		},
+		"facing=north,half=upper,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=1": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=2": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=3": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=4": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=5": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=6": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		},
+		"facing=north,half=upper,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_top"
+		},
+		"facing=east,half=upper,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 90
+		},
+		"facing=south,half=upper,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 180
+		},
+		"facing=west,half=upper,number=7": {
+			"model": "bte:block/gate_glass_fence_plain_top",
+			"y": 270
+		}
+	}
+}

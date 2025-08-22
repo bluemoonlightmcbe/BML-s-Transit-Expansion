@@ -1,0 +1,6 @@
+{
+    "parent": "bte:block/platform_iron_block_indented",
+    "textures": {
+        "top": "mtr:block/platform_hk_2"
+    }
+}

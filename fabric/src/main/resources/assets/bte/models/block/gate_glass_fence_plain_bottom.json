@@ -1,0 +1,6 @@
+{
+	"parent": "bte:block/gate_glass_fence_normal_bottom_base",
+	"textures": {
+		"particle": "block/glass"
+	}
+}

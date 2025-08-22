@@ -1,0 +1,30 @@
+build/
+*.ipr
+run/
+*.iws
+out/
+*.iml
+.gradle/
+output/
+bin/
+forge/src/main/java/net/bte/mod
+forge/src/main/resources/assets
+forge/src/main/resources/data
+forge/src/main/resources/META-INF
+fabric.mod.json
+**/font/*.json
+
+.classpath
+.project
+.idea/
+classes/
+.metadata
+.vscode
+.settings
+*.launch
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
