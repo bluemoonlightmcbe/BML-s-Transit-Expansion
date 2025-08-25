@@ -1,77 +1,77 @@
 {
   "itemGroup.bte.gate": "Gate",
 
-  "block.bte.gate_glass_fence_plain": "玻璃柵欄(左)(閘機專用)",
-  "block.bte.gate_glass_fence_right_plain": "玻璃柵欄(右)(閘機專用)",
+  "block.bte.gate_glass_fence_plain": "Glass Fence(Left)(Gate Only)",
+  "block.bte.gate_glass_fence_right_plain": "Glass Fence(Right)(glass_fence_plain)",
 
-  "block.bte.gate_hk_c3025": "C3025閘機(入口)",
-  "block.bte.gate_hk_c3025_exit": "C3025閘機(出口)",
-  "block.bte.gate_hk_c3025_cover": "C3025閘機(側蓋)",
-  "block.bte.gate_hk_c3025_wide": "C3025闊閘機(入口)",
-  "block.bte.gate_hk_c3025_wide_exit": "C3025闊閘機(出口)",
+  "block.bte.gate_hk_c3025": "C3025 Gate(Entrance)",
+  "block.bte.gate_hk_c3025_exit": "C3025 Gate(Exit)",
+  "block.bte.gate_hk_c3025_cover": "C3025 Gate(Cover)",
+  "block.bte.gate_hk_c3025_wide": "C3025 Wide Gate(Entrance)",
+  "block.bte.gate_hk_c3025_wide_exit": "C3025 Wide Gate(Exit)",
 
 
-  "itemGroup.bte.platform": "月台方塊",
+  "itemGroup.bte.platform": "Platform Block",
 
-  "itemGroup.bte.platform.block": "月台方塊",
-  "itemGroup.bte.platform.indented": "月台方塊(indented)",
-  "itemGroup.bte.platform.slab": "月台半磚",
+  "itemGroup.bte.platform.block": "Platform Block",
+  "itemGroup.bte.platform.indented": "Platform Block (indented)",
+  "itemGroup.bte.platform.slab": "Platform Slab",
 
-  "block.bte.platform_yellow_concrete": "月台方塊 （黃色混凝土）",
-  "block.bte.platform_yellow_concrete_indented": "月台方塊 （黃色混凝土）",
-  "block.bte.platform_yellow_concrete_slab": "月台半磚 （黃色混凝土）",
+  "block.bte.platform_yellow_concrete": "Platform Block (Yellow Concrete)",
+  "block.bte.platform_yellow_concrete_indented": "Platform Block (Yellow Concrete)",
+  "block.bte.platform_yellow_concrete_slab": "Platform Slab (Yellow Concrete)",
 
-  "block.bte.platform_quartz_block": "月台方塊 （石英）",
-  "block.bte.platform_quartz_block_indented": "月台方塊 （石英）",
-  "block.bte.platform_quartz_block_slab": "月台半磚 （石英）",
+  "block.bte.platform_quartz_block": "Platform Block (Quartz Block)",
+  "block.bte.platform_quartz_block_indented": "Platform Block (Quartz Block)",
+  "block.bte.platform_quartz_block_slab": "Platform Slab (Quartz Block)",
 
-  "block.bte.platform_smooth_quartz": "月台方塊 （平滑石英）",
-  "block.bte.platform_smooth_quartz_indented": "月台方塊 （平滑石英）",
-  "block.bte.platform_smooth_quartz_slab": "月台半磚 （平滑石英）",
+  "block.bte.platform_smooth_quartz": "Platform Block (Smooth Quartz)",
+  "block.bte.platform_smooth_quartz_indented": "Platform Block (Smooth Quartz)",
+  "block.bte.platform_smooth_quartz_slab": "Platform Slab (Smooth Quartz)",
 
-  "block.bte.platform_yellow_quartz_block": "月台方塊 （黃色石英）",
-  "block.bte.platform_yellow_quartz_block_indented": "月台方塊 （黃色石英）",
-  "block.bte.platform_yellow_quartz_block_slab": "月台半磚 （黃色石英）",
+  "block.bte.platform_yellow_quartz_block": "Platform Block (Yellow Quartz Block)",
+  "block.bte.platform_yellow_quartz_block_indented": "Platform Block (Yellow Quartz Block)",
+  "block.bte.platform_yellow_quartz_block_slab": "Platform Slab (Yellow Quartz Block)",
 
-  "block.bte.platform_yellow_smooth_quartz": "月台方塊 （黃色平滑石英）",
-  "block.bte.platform_yellow_smooth_quartz_indented": "月台方塊 （黃色平滑石英）",
-  "block.bte.platform_yellow_smooth_quartz_slab": "月台半磚 （黃色平滑石英）",
+  "block.bte.platform_yellow_smooth_quartz": "Platform Block (Yellow Smooth Quartz)",
+  "block.bte.platform_yellow_smooth_quartz_indented": "Platform Block (Yellow Smooth Quartz)",
+  "block.bte.platform_yellow_smooth_quartz_slab": "Platform Slab (Yellow Smooth Quartz)",
 
-  "block.bte.platform_light_blue_quartz_block": "月台方塊 （藍色石英）",
-  "block.bte.platform_light_blue_quartz_block_indented": "月台方塊 （藍色石英）",
-  "block.bte.platform_light_blue_quartz_block_slab": "月台半磚 （藍色石英）",
+  "block.bte.platform_light_blue_quartz_block": "Platform Block (Light Blue Quartz Block)",
+  "block.bte.platform_light_blue_quartz_block_indented": "Platform Block (Light Blue Quartz Block)",
+  "block.bte.platform_light_blue_quartz_block_slab": "Platform Slab (Light Blue Quartz Block)",
 
-  "block.bte.platform_light_blue_smooth_quartz": "月台方塊 （藍色平滑石英）",
-  "block.bte.platform_light_blue_smooth_quartz_indented": "月台方塊 （藍色平滑石英）",
-  "block.bte.platform_light_blue_smooth_quartz_slab": "月台半磚 （藍色平滑石英）",
+  "block.bte.platform_light_blue_smooth_quartz": "Platform Block (Light Blue Smooth Quartz)",
+  "block.bte.platform_light_blue_smooth_quartz_indented": "Platform Block (Light Blue Smooth Quartz)",
+  "block.bte.platform_light_blue_smooth_quartz_slab": "Platform Slab (Light Blue Smooth Quartz)",
 
-  "block.bte.platform_iron_block": "月台方塊 （鐵方塊）",
-  "block.bte.platform_iron_block_indented": "月台方塊 （鐵方塊）",
-  "block.bte.platform_iron_block_slab": "月台半磚 （鐵方塊）",
+  "block.bte.platform_iron_block": "Platform Block (Iron Block)",
+  "block.bte.platform_iron_block_indented": "Platform Block (Iron Block)",
+  "block.bte.platform_iron_block_slab": "Platform Slab (Iron Block)",
 
-  "block.bte.platform_bamboo_planks": "月台方塊 （竹材）",
-  "block.bte.platform_bamboo_planks_indented": "月台方塊 （竹材）",
-  "block.bte.platform_bamboo_planks_slab": "月台半磚 （竹材）",
+  "block.bte.platform_bamboo_planks": "Platform Block (Bamboo Planks)",
+  "block.bte.platform_bamboo_planks_indented": "Platform Block (Bamboo Planks)",
+  "block.bte.platform_bamboo_planks_slab": "Platform Slab (Bamboo Planks)",
 
-  "block.bte.platform_calcite": "月台方塊 （方解石）",
-  "block.bte.platform_calcite_indented": "月台方塊 （方解石）",
-  "block.bte.platform_calcite_slab": "月台半磚 （方解石）",
+  "block.bte.platform_calcite": "Platform Block (Calcite)",
+  "block.bte.platform_calcite_indented": "Platform Block (Calcite)",
+  "block.bte.platform_calcite_slab": "Platform Slab (Calcite)",
 
-  "block.bte.platform_bone": "月台方塊 （骨塊）",
-  "block.bte.platform_bone_indented": "月台方塊 （骨塊）",
-  "block.bte.platform_bone_slab": "月台半磚 （骨塊）",
+  "block.bte.platform_bone": "Platform Block (Bone)",
+  "block.bte.platform_bone_indented": "Platform Block (Bone)",
+  "block.bte.platform_bone_slab": "Platform Slab (Bone)",
 
-  "block.bte.platform_polished_blackstone": "月台方塊 （黑石）",
-  "block.bte.platform_polished_blackstone_indented": "月台方塊 （黑石）",
-  "block.bte.platform_polished_blackstone_slab": "月台半磚 （黑石）",
+  "block.bte.platform_polished_blackstone": "Platform Block (Polished Black Stone)",
+  "block.bte.platform_polished_blackstone_indented": "Platform Block (Polished Black Stone)",
+  "block.bte.platform_polished_blackstone_slab": "Platform Slab (Polished Black Stone)",
 
-  "block.bte.platform_smooth_basalt": "月台方塊 （平滑玄武岩）",
-  "block.bte.platform_smooth_basalt_indented": "月台方塊 （平滑玄武岩）",
-  "block.bte.platform_smooth_basalt_slab": "月台半磚 （平滑玄武岩）",
+  "block.bte.platform_smooth_basalt": "Platform Block (Smooth Basalt)",
+  "block.bte.platform_smooth_basalt_indented": "Platform Block (Smooth Basalt)",
+  "block.bte.platform_smooth_basalt_slab": "Platform Slab (Smooth Basalt)",
 
-  "block.bte.platform_sea_lantern": "月台方塊 （海燈籠）",
-  "block.bte.platform_sea_lantern_indented": "月台方塊 （海燈籠）",
-  "block.bte.platform_sea_lantern_slab": "月台半磚 （海燈籠）"
+  "block.bte.platform_sea_lantern": "Platform Block (Sea Lantern)",
+  "block.bte.platform_sea_lantern_indented": "Platform Block (Sea Lantern)",
+  "block.bte.platform_sea_lantern_slab": "Platform Slab (Sea Lantern)"
 
 
 

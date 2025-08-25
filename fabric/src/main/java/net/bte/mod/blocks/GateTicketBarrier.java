@@ -23,6 +23,8 @@ public class GateTicketBarrier extends BlockTicketBarrier {
         return IBlock.getVoxelShapeByDirection(12, 0, 0, 16, 16, 16, facing);
     }
 
+
+
     @Override
     public void addBlockProperties(List<HolderBase<?>> properties) {
         super.addBlockProperties(properties);

@@ -23,10 +23,12 @@ public class GateWideTicketBarrier extends BlockTicketBarrier {
     @Override
     public VoxelShape getCollisionShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction facing = IBlock.getStatePropertySafe(state, FACING);
-        TicketSystem.EnumTicketBarrierOpen open = IBlock.getStatePropertySafe(state, OPEN);
+        TicketSystem.EnumTicketBarrierOpen open = IBlock.getStatePropertySafe(state, new Property<>(OPEN.data));
         VoxelShape base = IBlock.getVoxelShapeByDirection(15.0, 0.0, -8.0, 16.0, 24.0, 24.0, facing);
         return open != TicketSystem.EnumTicketBarrierOpen.OPEN && open != TicketSystem.EnumTicketBarrierOpen.OPEN_CONCESSIONARY ? VoxelShapes.union(IBlock.getVoxelShapeByDirection(0.0, 0.0, 7.0, 16.0, 24.0, 9.0, facing), base) : base;
     }
+
+
     @Override
     public void addBlockProperties(List<HolderBase<?>> properties) {
         super.addBlockProperties(properties);

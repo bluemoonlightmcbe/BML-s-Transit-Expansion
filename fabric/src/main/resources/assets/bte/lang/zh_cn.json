@@ -1,0 +1,84 @@
+{
+  "itemGroup.bte.gate": "闸机",
+
+  "block.bte.gate_glass_fence_plain": "玻璃栅栏(左)(闸机专用)",
+  "block.bte.gate_glass_fence_right_plain": "玻璃栅栏(右)(闸机专用)",
+
+  "block.bte.gate_hk_c3025": "C3025闸机(入口)",
+  "block.bte.gate_hk_c3025_exit": "C3025闸机(出口)",
+  "block.bte.gate_hk_c3025_cover": "C3025闸机(侧盖)",
+  "block.bte.gate_hk_c3025_wide": "C3025阔闸机(入口)",
+  "block.bte.gate_hk_c3025_wide_exit": "C3025阔闸机(出口)",
+
+
+  "itemGroup.bte.platform": "站台站台方块",
+
+  "itemGroup.bte.platform.block": "站台方块",
+  "itemGroup.bte.platform.indented": "站台方块 （indented）",
+  "itemGroup.bte.platform.slab": "站台半砖",
+
+  "block.bte.platform_yellow_concrete": "站台方块 （黄色混凝土）",
+  "block.bte.platform_yellow_concrete_indented": "站台方块 （黄色混凝土）",
+  "block.bte.platform_yellow_concrete_slab": "站台半砖 （黄色混凝土）",
+
+  "block.bte.platform_quartz_block": "站台方块 （石英）",
+  "block.bte.platform_quartz_block_indented": "站台方块 （石英）",
+  "block.bte.platform_quartz_block_slab": "站台半砖 （石英）",
+
+  "block.bte.platform_smooth_quartz": "站台方块 （平滑石英）",
+  "block.bte.platform_smooth_quartz_indented": "站台方块 （平滑石英）",
+  "block.bte.platform_smooth_quartz_slab": "站台半砖 （平滑石英）",
+
+  "block.bte.platform_yellow_quartz_block": "站台方块 （黄色石英）",
+  "block.bte.platform_yellow_quartz_block_indented": "站台方块 （黄色石英）",
+  "block.bte.platform_yellow_quartz_block_slab": "站台半砖 （黄色石英）",
+
+  "block.bte.platform_yellow_smooth_quartz": "站台方块 （黄色平滑石英）",
+  "block.bte.platform_yellow_smooth_quartz_indented": "站台方块 （黄色平滑石英）",
+  "block.bte.platform_yellow_smooth_quartz_slab": "站台半砖 （黄色平滑石英）",
+
+  "block.bte.platform_light_blue_quartz_block": "站台方块 （蓝色石英）",
+  "block.bte.platform_light_blue_quartz_block_indented": "站台方块 （蓝色石英）",
+  "block.bte.platform_light_blue_quartz_block_slab": "站台半砖 （蓝色石英）",
+
+  "block.bte.platform_light_blue_smooth_quartz": "站台方块 （蓝色平滑石英）",
+  "block.bte.platform_light_blue_smooth_quartz_indented": "站台方块 （蓝色平滑石英）",
+  "block.bte.platform_light_blue_smooth_quartz_slab": "站台半砖 （蓝色平滑石英）",
+
+  "block.bte.platform_iron_block": "站台方块 （铁方块）",
+  "block.bte.platform_iron_block_indented": "站台方块 （铁方块）",
+  "block.bte.platform_iron_block_slab": "站台半砖 （铁方块）",
+
+  "block.bte.platform_bamboo_planks": "站台方块 （竹材）",
+  "block.bte.platform_bamboo_planks_indented": "站台方块 （竹材）",
+  "block.bte.platform_bamboo_planks_slab": "站台半砖 （竹材）",
+
+  "block.bte.platform_calcite": "站台方块 （方解石）",
+  "block.bte.platform_calcite_indented": "站台方块 （方解石）",
+  "block.bte.platform_calcite_slab": "站台半砖 （方解石）",
+
+  "block.bte.platform_bone": "站台方块 （骨块）",
+  "block.bte.platform_bone_indented": "站台方块 （骨块）",
+  "block.bte.platform_bone_slab": "站台半砖 （骨块）",
+
+  "block.bte.platform_polished_blackstone": "站台方块 （黑石）",
+  "block.bte.platform_polished_blackstone_indented": "站台方块 （黑石）",
+  "block.bte.platform_polished_blackstone_slab": "站台半砖 （黑石）",
+
+  "block.bte.platform_smooth_basalt": "站台方块 （平滑玄武岩）",
+  "block.bte.platform_smooth_basalt_indented": "站台方块 （平滑玄武岩）",
+  "block.bte.platform_smooth_basalt_slab": "站台半砖 （平滑玄武岩）",
+
+  "block.bte.platform_sea_lantern": "站台方块 （海灯笼）",
+  "block.bte.platform_sea_lantern_indented": "站台方块 （海灯笼）",
+  "block.bte.platform_sea_lantern_slab": "站台半砖 （海灯笼）"
+
+
+
+
+
+
+
+
+
+}
