@@ -1,5 +1,7 @@
-# Russian Metro Addon
-A Russian Metro Addon for the [Minecraft Transit Railway Mod](https://modrinth.com/mod/minecraft-transit-railway).
+# BML's Transit Expansion
+A mod for the Minecraft Transit Railway mod and add somethings that mainly about platform
+
+![Custom Gate](https://cdn.modrinth.com/data/cached_images/8a469401c31f4b6e3d1c884799533224c9b534aa_0.webp)
 
 ## Setup
 
@@ -10,16 +12,12 @@ A Russian Metro Addon for the [Minecraft Transit Railway Mod](https://modrinth.c
     2. In the root project, run the Gradle `setupLibrary` task
     3. Sync the Gradle Project again
 
-## Credits
-**This mod was made for [Minecraft Urban Railway Server](https://murs-mc.ru) that is aimed at the post-Soviet construction and European architecture. Make sure to check it out!**
+## Build Jar
 
-[![Minecraft Urban Railway Server logo](https://wiki.murs-mc.ru/w/images/thumb/5/5a/MURS_Blue_logo_with_background.png/150px-MURS_Blue_logo_with_background.png "MURS Logo")](https://murs-mc.ru)
+1. Sync the Gradle project
+2. Run the Gradle `build` task
 
-This mod's code is based on [MTR Station Decoration Addon](https://github.com/AIDA64S/MTR-Station-Decoration-Addon).
-
-Models and textures for this mod are made by Anastasiya Trusheva.
-
-Данная модификация была создана в рамках курсового проекта «Воссоздание элементов инфраструктуры российских метрополитенов в виде модификации для видеоигры Minecraft».
+This mod's code is based on [MTR-Russian-Metro-Addon](https://github.com/WerySkok/MTR-Russian-Metro-Addon).
 
 ## License
 LGPL-3.0, see LICENSE.
