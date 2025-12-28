@@ -10,16 +10,77 @@ import ziyue.filters.Filter;
 public class RegisterItem {
     public interface Filters {
 
-        Filter MOD_PLATFORM_BLOCK = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.block"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_CONCRETE.get().data)));
-        Filter MOD_PLATFORM_INDENTED = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.indented"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_CONCRETE_INDENTED.get().data)));
-        Filter MOD_PLATFORM_SLAB = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.slab"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_CONCRETE_SLAB.get().data)));
+
+        Filter MOD_PLATFORM_BLOCK = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.block"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_QUARTZ_BLOCK.get().data)));
+        Filter MOD_PLATFORM_INDENTED = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.indented"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_QUARTZ_BLOCK_INDENTED.get().data)));
+        Filter MOD_PLATFORM_SLAB = FilterBuilder.registerFilter(CreativeModeTabs.MOD_PLATFORM, TextHelper.translatable("itemGroup.bte.platform.slab"), () -> new ItemStack(new ItemConvertible(Blocks.PLATFORM_YELLOW_QUARTZ_BLOCK_SLAB.get().data)));
         //Filter MOD_PLATFORM2_INDENTED = FilterBuilder.registerFilter(ModItemGroupsWithFilters.MOD_PLATFORM2, Text.translatable("ItemGroup.MOD_PLATFORM2_INDENTED"), () -> new ItemStack(Items.DIAMOND));
 
         //Filter TIANJIN_MISCELLANEOUS = FilterBuilder.registerFilter(CreativeModeTabs.TIANJIN_METRO, TextHelper.translatable("filter.tjmetro.tianjin_miscellaneous"), () -> new ItemStack(new ItemConvertible(ItemList.WRENCH.get().data)));
         static void init() {
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_WHITE_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_WHITE_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_WHITE_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_LIGHT_GRAY_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_LIGHT_GRAY_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_LIGHT_GRAY_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_GRAY_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_GRAY_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_GRAY_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_BLACK_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_BLACK_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_BLACK_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_BROWN_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_BROWN_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_BROWN_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_RED_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_RED_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_RED_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_ORANGE_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_ORANGE_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_ORANGE_CONCRETE_SLAB.get().data.asItem());
+
             MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_YELLOW_CONCRETE.get().data.asItem());
             MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_YELLOW_CONCRETE_INDENTED.get().data.asItem());
             MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_YELLOW_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_LIME_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_LIME_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_LIME_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_GREEN_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_GREEN_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_GREEN_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_CYAN_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_CYAN_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_CYAN_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_LIGHT_BLUE_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_LIGHT_BLUE_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_LIGHT_BLUE_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_BLUE_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_BLUE_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_BLUE_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_PURPLE_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_PURPLE_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_PURPLE_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_MAGENTA_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_MAGENTA_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_MAGENTA_CONCRETE_SLAB.get().data.asItem());
+
+            MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_PINK_CONCRETE.get().data.asItem());
+            MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_PINK_CONCRETE_INDENTED.get().data.asItem());
+            MOD_PLATFORM_SLAB.addItems(Blocks.PLATFORM_PINK_CONCRETE_SLAB.get().data.asItem());
 
             MOD_PLATFORM_BLOCK.addItems(Blocks.PLATFORM_QUARTZ_BLOCK.get().data.asItem());
             MOD_PLATFORM_INDENTED.addItems(Blocks.PLATFORM_QUARTZ_BLOCK_INDENTED.get().data.asItem());

@@ -17,9 +17,69 @@
   "itemGroup.bte.platform.indented": "月台方塊 （indented）",
   "itemGroup.bte.platform.slab": "月台半磚",
 
+  "block.bte.platform_white_concrete": "月台方塊 （白色混凝土）",
+  "block.bte.platform_white_concrete_indented": "月台方塊 （白色混凝土）",
+  "block.bte.platform_white_concrete_slab": "月台半磚 （白色混凝土）",
+
+  "block.bte.platform_orange_concrete": "月台方塊 （橙色混凝土）",
+  "block.bte.platform_orange_concrete_indented": "月台方塊 （橙色混凝土）",
+  "block.bte.platform_orange_concrete_slab": "月台半磚 （橙色混凝土）",
+
+  "block.bte.platform_magenta_concrete": "月台方塊 （紫紅色混凝土）",
+  "block.bte.platform_magenta_concrete_indented": "月台方塊 （紫紅色混凝土）",
+  "block.bte.platform_magenta_concrete_slab": "月台半磚 （紫紅色混凝土）",
+
+  "block.bte.platform_light_blue_concrete": "月台方塊 （淺藍色混凝土）",
+  "block.bte.platform_light_blue_concrete_indented": "月台方塊 （淺藍色混凝土）",
+  "block.bte.platform_light_blue_concrete_slab": "月台半磚 （淺藍色混凝土）",
+
   "block.bte.platform_yellow_concrete": "月台方塊 （黃色混凝土）",
   "block.bte.platform_yellow_concrete_indented": "月台方塊 （黃色混凝土）",
   "block.bte.platform_yellow_concrete_slab": "月台半磚 （黃色混凝土）",
+
+  "block.bte.platform_lime_concrete": "月台方塊 （淺綠色混凝土）",
+  "block.bte.platform_lime_concrete_indented": "月台方塊 （淺綠色混凝土）",
+  "block.bte.platform_lime_concrete_slab": "月台半磚 （淺綠色混凝土）",
+
+  "block.bte.platform_pink_concrete": "月台方塊 （粉紅色混凝土）",
+  "block.bte.platform_pink_concrete_indented": "月台方塊 （粉紅色混凝土）",
+  "block.bte.platform_pink_concrete_slab": "月台半磚 （粉紅色混凝土）",
+
+  "block.bte.platform_gray_concrete": "月台方塊 （灰色混凝土）",
+  "block.bte.platform_gray_concrete_indented": "月台方塊 （灰色混凝土）",
+  "block.bte.platform_gray_concrete_slab": "月台半磚 （灰色混凝土）",
+
+  "block.bte.platform_light_gray_concrete": "月台方塊 （淺灰色混凝土）",
+  "block.bte.platform_light_gray_concrete_indented": "月台方塊 （淺灰色混凝土）",
+  "block.bte.platform_light_gray_concrete_slab": "月台半磚 （淺灰色混凝土）",
+
+  "block.bte.platform_cyan_concrete": "月台方塊 （青色混凝土）",
+  "block.bte.platform_cyan_concrete_indented": "月台方塊 （青色混凝土）",
+  "block.bte.platform_cyan_concrete_slab": "月台半磚 （青色混凝土）",
+
+  "block.bte.platform_purple_concrete": "月台方塊 （紫色混凝土）",
+  "block.bte.platform_purple_concrete_indented": "月台方塊 （紫色混凝土）",
+  "block.bte.platform_purple_concrete_slab": "月台半磚 （紫色混凝土）",
+
+  "block.bte.platform_blue_concrete": "月台方塊 （藍色混凝土）",
+  "block.bte.platform_blue_concrete_indented": "月台方塊 （藍色混凝土）",
+  "block.bte.platform_blue_concrete_slab": "月台半磚 （藍色混凝土）",
+
+  "block.bte.platform_brown_concrete": "月台方塊 （啡色混凝土）",
+  "block.bte.platform_brown_concrete_indented": "月台方塊 （啡色混凝土）",
+  "block.bte.platform_brown_concrete_slab": "月台半磚 （啡色混凝土）",
+
+  "block.bte.platform_green_concrete": "月台方塊 （綠色混凝土）",
+  "block.bte.platform_green_concrete_indented": "月台方塊 （綠色混凝土）",
+  "block.bte.platform_green_concrete_slab": "月台半磚 （綠色混凝土）",
+
+  "block.bte.platform_red_concrete": "月台方塊 （紅色混凝土）",
+  "block.bte.platform_red_concrete_indented": "月台方塊 （紅色混凝土）",
+  "block.bte.platform_red_concrete_slab": "月台半磚 （紅色混凝土）",
+
+  "block.bte.platform_black_concrete": "月台方塊 （黑色混凝土）",
+  "block.bte.platform_black_concrete_indented": "月台方塊 （黑色混凝土）",
+  "block.bte.platform_black_concrete_slab": "月台半磚 （黑色混凝土）",
 
   "block.bte.platform_quartz_block": "月台方塊 （石英）",
   "block.bte.platform_quartz_block_indented": "月台方塊 （石英）",
@@ -72,13 +132,5 @@
   "block.bte.platform_sea_lantern": "月台方塊 （海燈籠）",
   "block.bte.platform_sea_lantern_indented": "月台方塊 （海燈籠）",
   "block.bte.platform_sea_lantern_slab": "月台半磚 （海燈籠）"
-
-
-
-
-
-
-
-
 
 }

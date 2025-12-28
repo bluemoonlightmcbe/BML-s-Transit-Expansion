@@ -26,16 +26,41 @@ sourceSets.main.resources { srcDir "src/generated/resources" }
 	maven { url = "https://maven.ziyuesinicization.site/releases/" }
 }*/
 
-
+repositories {
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		forRepositories(fg.repository) // Only add this if you're using ForgeGradle, otherwise remove this line
+		filter {
+			includeGroup "maven.modrinth"
+		}
+	}
+}
 dependencies {
 	minecraft "net.minecraftforge:forge:${minecraftVersion}-${buildTools.getForgeVersion()}"
 	annotationProcessor "org.spongepowered:mixin:+:processor"
-	implementation fg.deobf("org.mtr:MTR-forge:${mtrVersion}+${minecraftVersion}")
-	implementation fg.deobf("com.lx862.jcm:JCM-forge:${jcmVersion}+${minecraftVersion}")
+	implementation fg.deobf("maven.modrinth:minecraft-transit-railway:FORGE-${mtrVersion}+${minecraftVersion}")
+	implementation fg.deobf("maven.modrinth:jcm:v${jcmVersion}+${minecraftVersion}")
 	/*implementation(fg.deobf("ziyue.filters:filters-forge:${filterAPIVersion}+${minecraftVersion}")) {
 		exclude(group: "net.minecraftforge")
 	}*/
 }
+
+/*repositories {
+	maven { url = "https://maven.ziyuesinicization.site/releases/" }
+}
+
+dependencies {
+	implementation(fg.deobf("ziyue.filters:filters-forge:${filterAPIVersion}+${minecraftVersion}")) {
+		exclude(group: "net.minecraftforge")
+	}
+}*/
+
+
 
 mixin {
 	add sourceSets.main, "mtr.refmap.json"

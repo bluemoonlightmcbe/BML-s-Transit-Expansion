@@ -1,0 +1,9 @@
+ {
+    "parent": "mtr:block/platform_base_indented",
+    "textures": {
+        "main": "minecraft:block/red_concrete",
+        "inner": "minecraft:block/red_concrete",
+        "front": "minecraft:block/red_concrete",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

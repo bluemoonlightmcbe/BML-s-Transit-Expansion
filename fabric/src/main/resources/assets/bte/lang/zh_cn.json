@@ -17,9 +17,69 @@
   "itemGroup.bte.platform.indented": "站台方块 （indented）",
   "itemGroup.bte.platform.slab": "站台半砖",
 
+  "block.bte.platform_white_concrete": "站台方块 （白色混凝土）",
+  "block.bte.platform_white_concrete_indented": "站台方块 （白色混凝土）",
+  "block.bte.platform_white_concrete_slab": "站台半砖 （白色混凝土）",
+
+  "block.bte.platform_orange_concrete": "站台方块 （橙色混凝土）",
+  "block.bte.platform_orange_concrete_indented": "站台方块 （橙色混凝土）",
+  "block.bte.platform_orange_concrete_slab": "站台半砖 （橙色混凝土）",
+
+  "block.bte.platform_magenta_concrete": "站台方块 （品红色混凝土）",
+  "block.bte.platform_magenta_concrete_indented": "站台方块 （品红色混凝土）",
+  "block.bte.platform_magenta_concrete_slab": "站台半砖 （品红色混凝土）",
+
+  "block.bte.platform_light_blue_concrete": "站台方块 （淡蓝色混凝土）",
+  "block.bte.platform_light_blue_concrete_indented": "站台方块 （淡蓝色混凝土）",
+  "block.bte.platform_light_blue_concrete_slab": "站台半砖 （淡蓝色混凝土）",
+
   "block.bte.platform_yellow_concrete": "站台方块 （黄色混凝土）",
   "block.bte.platform_yellow_concrete_indented": "站台方块 （黄色混凝土）",
   "block.bte.platform_yellow_concrete_slab": "站台半砖 （黄色混凝土）",
+
+  "block.bte.platform_lime_concrete": "站台方块 （黄绿色混凝土）",
+  "block.bte.platform_lime_concrete_indented": "站台方块 （黄绿色混凝土）",
+  "block.bte.platform_lime_concrete_slab": "站台半砖 （黄绿色混凝土）",
+
+  "block.bte.platform_pink_concrete": "站台方块 （粉红色混凝土）",
+  "block.bte.platform_pink_concrete_indented": "站台方块 （粉红色混凝土）",
+  "block.bte.platform_pink_concrete_slab": "站台半砖 （粉红色混凝土）",
+
+  "block.bte.platform_gray_concrete": "站台方块 （灰色混凝土）",
+  "block.bte.platform_gray_concrete_indented": "站台方块 （灰色混凝土）",
+  "block.bte.platform_gray_concrete_slab": "站台半砖 （灰色混凝土）",
+
+  "block.bte.platform_light_gray_concrete": "站台方块 （淡灰色混凝土）",
+  "block.bte.platform_light_gray_concrete_indented": "站台方块 （淡灰色混凝土）",
+  "block.bte.platform_light_gray_concrete_slab": "站台半砖 （淡灰色混凝土）",
+
+  "block.bte.platform_cyan_concrete": "站台方块 （青色混凝土）",
+  "block.bte.platform_cyan_concrete_indented": "站台方块 （青色混凝土）",
+  "block.bte.platform_cyan_concrete_slab": "站台半砖 （青色混凝土）",
+
+  "block.bte.platform_purple_concrete": "站台方块 （紫色混凝土）",
+  "block.bte.platform_purple_concrete_indented": "站台方块 （紫色混凝土）",
+  "block.bte.platform_purple_concrete_slab": "站台半砖 （紫色混凝土）",
+
+  "block.bte.platform_blue_concrete": "站台方块 （蓝色混凝土）",
+  "block.bte.platform_blue_concrete_indented": "站台方块 （蓝色混凝土）",
+  "block.bte.platform_blue_concrete_slab": "站台半砖 （蓝色混凝土）",
+
+  "block.bte.platform_brown_concrete": "站台方块 （棕色混凝土）",
+  "block.bte.platform_brown_concrete_indented": "站台方块 （棕色混凝土）",
+  "block.bte.platform_brown_concrete_slab": "站台半砖 （棕色混凝土）",
+
+  "block.bte.platform_green_concrete": "站台方块 （绿色混凝土）",
+  "block.bte.platform_green_concrete_indented": "站台方块 （绿色混凝土）",
+  "block.bte.platform_green_concrete_slab": "站台半砖 （绿色混凝土）",
+
+  "block.bte.platform_red_concrete": "站台方块 （红色混凝土）",
+  "block.bte.platform_red_concrete_indented": "站台方块 （红色混凝土）",
+  "block.bte.platform_red_concrete_slab": "站台半砖 （红色混凝土）",
+
+  "block.bte.platform_black_concrete": "站台方块 （黑色混凝土）",
+  "block.bte.platform_black_concrete_indented": "站台方块 （黑色混凝土）",
+  "block.bte.platform_black_concrete_slab": "站台半砖 （黑色混凝土）",
 
   "block.bte.platform_quartz_block": "站台方块 （石英）",
   "block.bte.platform_quartz_block_indented": "站台方块 （石英）",
@@ -72,13 +132,5 @@
   "block.bte.platform_sea_lantern": "站台方块 （海灯笼）",
   "block.bte.platform_sea_lantern_indented": "站台方块 （海灯笼）",
   "block.bte.platform_sea_lantern_slab": "站台半砖 （海灯笼）"
-
-
-
-
-
-
-
-
 
 }

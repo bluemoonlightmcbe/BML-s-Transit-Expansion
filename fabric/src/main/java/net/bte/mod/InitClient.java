@@ -1,6 +1,7 @@
 package net.bte.mod;
 
 import net.bte.Filters.RegisterItem;
+import net.bte.mod.packet.PacketOpenPlatformSettingScreen;
 import org.mtr.mapping.holder.RenderLayer;
 import org.mtr.mapping.registry.RegistryClient;
 
@@ -13,10 +14,70 @@ public class InitClient {
 
 		RegisterItem.Filters.init();
 
-		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_IRON_BLOCK);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_WHITE_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_WHITE_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_WHITE_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_GRAY_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_GRAY_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_GRAY_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GRAY_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GRAY_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GRAY_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLACK_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLACK_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLACK_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BROWN_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BROWN_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BROWN_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RED_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RED_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RED_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_ORANGE_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_ORANGE_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_ORANGE_CONCRETE_SLAB);
+
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_YELLOW_CONCRETE);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_YELLOW_CONCRETE_INDENTED);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_YELLOW_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIME_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIME_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIME_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GREEN_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GREEN_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_GREEN_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_CYAN_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_CYAN_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_CYAN_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_BLUE_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_BLUE_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_LIGHT_BLUE_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLUE_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLUE_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_BLUE_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PURPLE_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PURPLE_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PURPLE_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_MAGENTA_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_MAGENTA_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_MAGENTA_CONCRETE_SLAB);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PINK_CONCRETE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PINK_CONCRETE_INDENTED);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_PINK_CONCRETE_SLAB);
+
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_QUARTZ_BLOCK);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_QUARTZ_BLOCK_INDENTED);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_QUARTZ_BLOCK_SLAB);

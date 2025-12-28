@@ -1,0 +1,6 @@
+{
+    "parent": "bte:block/platform_cyan_concrete",
+    "textures": {
+        "top": "mtr:block/transparent"
+    }
+}

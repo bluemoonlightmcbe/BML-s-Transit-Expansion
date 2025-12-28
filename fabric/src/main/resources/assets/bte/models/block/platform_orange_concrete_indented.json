@@ -1,0 +1,9 @@
+ {
+    "parent": "mtr:block/platform_base_indented",
+    "textures": {
+        "main": "minecraft:block/orange_concrete",
+        "inner": "minecraft:block/orange_concrete",
+        "front": "minecraft:block/orange_concrete",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

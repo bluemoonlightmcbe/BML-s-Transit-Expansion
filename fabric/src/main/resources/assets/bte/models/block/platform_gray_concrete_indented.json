@@ -1,0 +1,9 @@
+ {
+    "parent": "mtr:block/platform_base_indented",
+    "textures": {
+        "main": "minecraft:block/gray_concrete",
+        "inner": "minecraft:block/gray_concrete",
+        "front": "minecraft:block/gray_concrete",
+        "top": "mtr:block/platform_hk_1"
+    }
+}

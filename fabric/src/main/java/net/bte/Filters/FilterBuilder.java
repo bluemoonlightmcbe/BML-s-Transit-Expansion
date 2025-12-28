@@ -16,6 +16,7 @@ import java.util.function.Supplier;
 
 public interface FilterBuilder
 {
+
     static Filter registerFilter(CreativeModeTabHolder creativeModeTab, MutableText filterName, Supplier<ItemStack> filterIcon) {
         return ziyue.filters.FilterBuilder.registerFilter(creativeModeTab.creativeModeTab, filterName.data, () -> filterIcon.get().data);
     }

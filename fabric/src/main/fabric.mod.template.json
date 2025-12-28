@@ -24,7 +24,7 @@
 		"fabric": "*",
 		"minecraft": "@minecraft@",
 		"mtr": ">=4.0.0 <4.1",
-		"jsblock": ">=2.0.0 <2.1",
+		"jsblock": ">=2.0.0",
 		"filters": ">=1.0.0"
 	}
 }

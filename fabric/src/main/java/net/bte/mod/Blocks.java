@@ -1,23 +1,85 @@
 package net.bte.mod;
 
 
+import com.google.gson.JsonArray;
 import com.lx862.jcm.mod.block.ThalesTicketBarrier;
 import com.lx862.jcm.mod.block.ThalesTicketBarrierBareBlock;
 import net.bte.mod.blocks.*;
 import org.mtr.mapping.holder.Block;
 import org.mtr.mapping.holder.Identifier;
 import org.mtr.mapping.registry.BlockRegistryObject;
-import org.mtr.mod.block.BlockPlatform;
-import org.mtr.mod.block.BlockPlatformSlab;
+import net.bte.mod.blocks.platform.BlockPlatform;
+import net.bte.mod.blocks.platform.BlockPlatformSlab;
+import org.mtr.mod.block.BlockPSDDoor;
 
 import static org.mtr.mod.Blocks.createDefaultBlockSettings;
 
 public final class Blocks {
 
 	static {
+		PLATFORM_WHITE_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_white_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_WHITE_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_white_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_WHITE_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_white_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_LIGHT_GRAY_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_gray_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIGHT_GRAY_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_gray_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIGHT_GRAY_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_gray_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_GRAY_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_gray_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_GRAY_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_gray_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_GRAY_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_gray_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_BLACK_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_black_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BLACK_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_black_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BLACK_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_black_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_BROWN_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_brown_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BROWN_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_brown_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BROWN_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_brown_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_RED_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_red_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_RED_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_red_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_RED_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_red_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_ORANGE_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_orange_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_ORANGE_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_orange_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_ORANGE_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_orange_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
 		PLATFORM_YELLOW_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_yellow_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
 		PLATFORM_YELLOW_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_yellow_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
 		PLATFORM_YELLOW_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_yellow_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_LIME_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_lime_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIME_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_lime_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIME_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_lime_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_GREEN_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_green_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_GREEN_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_green_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_GREEN_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_green_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_CYAN_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_cyan_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_CYAN_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_cyan_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_CYAN_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_cyan_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_LIGHT_BLUE_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_blue_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIGHT_BLUE_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_blue_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_LIGHT_BLUE_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_light_blue_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_BLUE_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_blue_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BLUE_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_blue_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_BLUE_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_blue_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_PURPLE_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_purple_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_PURPLE_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_purple_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_PURPLE_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_purple_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_MAGENTA_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_magenta_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_MAGENTA_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_magenta_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_MAGENTA_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_magenta_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
+
+		PLATFORM_PINK_CONCRETE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_pink_concrete"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_PINK_CONCRETE_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_pink_concrete_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
+		PLATFORM_PINK_CONCRETE_SLAB = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_pink_concrete_slab"), () -> new Block(new BlockPlatformSlab(createDefaultBlockSettings(false))), CreativeModeTabs.MOD_PLATFORM);
 
 		PLATFORM_QUARTZ_BLOCK = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_quartz_block"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), false)), CreativeModeTabs.MOD_PLATFORM);
 		PLATFORM_QUARTZ_BLOCK_INDENTED = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "platform_quartz_block_indented"), () -> new Block(new BlockPlatform(createDefaultBlockSettings(false), true)), CreativeModeTabs.MOD_PLATFORM);
@@ -93,9 +155,54 @@ public final class Blocks {
 
 	}
 
+	public static final BlockRegistryObject PLATFORM_WHITE_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_WHITE_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_WHITE_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_LIGHT_GRAY_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_LIGHT_GRAY_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_LIGHT_GRAY_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_GRAY_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_GRAY_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_GRAY_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_BLACK_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_BLACK_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_BLACK_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_BROWN_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_BROWN_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_BROWN_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_RED_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_RED_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_RED_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_ORANGE_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_ORANGE_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_ORANGE_CONCRETE_SLAB;
 	public static final BlockRegistryObject PLATFORM_YELLOW_CONCRETE;
 	public static final BlockRegistryObject PLATFORM_YELLOW_CONCRETE_INDENTED;
 	public static final BlockRegistryObject PLATFORM_YELLOW_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_LIME_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_LIME_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_LIME_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_GREEN_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_GREEN_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_GREEN_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_CYAN_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_CYAN_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_CYAN_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_LIGHT_BLUE_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_LIGHT_BLUE_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_LIGHT_BLUE_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_BLUE_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_BLUE_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_BLUE_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_PURPLE_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_PURPLE_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_PURPLE_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_MAGENTA_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_MAGENTA_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_MAGENTA_CONCRETE_SLAB;
+	public static final BlockRegistryObject PLATFORM_PINK_CONCRETE;
+	public static final BlockRegistryObject PLATFORM_PINK_CONCRETE_INDENTED;
+	public static final BlockRegistryObject PLATFORM_PINK_CONCRETE_SLAB;
 	public static final BlockRegistryObject PLATFORM_QUARTZ_BLOCK;
 	public static final BlockRegistryObject PLATFORM_QUARTZ_BLOCK_INDENTED;
 	public static final BlockRegistryObject PLATFORM_QUARTZ_BLOCK_SLAB;

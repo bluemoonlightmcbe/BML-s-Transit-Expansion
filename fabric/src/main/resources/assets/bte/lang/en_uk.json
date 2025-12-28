@@ -1,14 +1,14 @@
 {
   "itemGroup.bte.gate": "Gate",
 
-  "block.bte.gate_glass_fence_plain": "Glass Fence(Left)(Gate Only)",
-  "block.bte.gate_glass_fence_right_plain": "Glass Fence(Right)(glass_fence_plain)",
+  "block.bte.gate_glass_fence_plain": "Glass Fence (Left) (Gate Only)",
+  "block.bte.gate_glass_fence_right_plain": "Glass Fence (Right) (glass_fence_plain)",
 
-  "block.bte.gate_hk_c3025": "C3025 Gate(Entrance)",
-  "block.bte.gate_hk_c3025_exit": "C3025 Gate(Exit)",
-  "block.bte.gate_hk_c3025_cover": "C3025 Gate(Cover)",
-  "block.bte.gate_hk_c3025_wide": "C3025 Wide Gate(Entrance)",
-  "block.bte.gate_hk_c3025_wide_exit": "C3025 Wide Gate(Exit)",
+  "block.bte.gate_hk_c3025": "C3025 Gate (Entrance)",
+  "block.bte.gate_hk_c3025_exit": "C3025 Gate (Exit)",
+  "block.bte.gate_hk_c3025_cover": "C3025 Gate (Cover)",
+  "block.bte.gate_hk_c3025_wide": "C3025 Wide Gate (Entrance)",
+  "block.bte.gate_hk_c3025_wide_exit": "C3025 Wide Gate (Exit)",
 
 
   "itemGroup.bte.platform": "Platform Block",
@@ -17,9 +17,69 @@
   "itemGroup.bte.platform.indented": "Platform Block (indented)",
   "itemGroup.bte.platform.slab": "Platform Slab",
 
+  "block.bte.platform_white_concrete": "Platform Block (White Concrete)",
+  "block.bte.platform_white_concrete_indented": "Platform Block (White Concrete)",
+  "block.bte.platform_white_concrete_slab": "Platform Slab (White Concrete)",
+
+  "block.bte.platform_orange_concrete": "Platform Block (Orange Concrete)",
+  "block.bte.platform_orange_concrete_indented": "Platform Block (Orange Concrete)",
+  "block.bte.platform_orange_concrete_slab": "Platform Slab (Orange Concrete)",
+
+  "block.bte.platform_magenta_concrete": "Platform Block (Magenta Concrete)",
+  "block.bte.platform_magenta_concrete_indented": "Platform Block (Magenta Concrete)",
+  "block.bte.platform_magenta_concrete_slab": "Platform Slab (Magenta Concrete)",
+
+  "block.bte.platform_light_blue_concrete": "Platform Block (Light Blue Concrete)",
+  "block.bte.platform_light_blue_concrete_indented": "Platform Block (Light Blue Concrete)",
+  "block.bte.platform_light_blue_concrete_slab": "Platform Slab (Light Blue Concrete)",
+
   "block.bte.platform_yellow_concrete": "Platform Block (Yellow Concrete)",
   "block.bte.platform_yellow_concrete_indented": "Platform Block (Yellow Concrete)",
   "block.bte.platform_yellow_concrete_slab": "Platform Slab (Yellow Concrete)",
+
+  "block.bte.platform_lime_concrete": "Platform Block (Lime Concrete)",
+  "block.bte.platform_lime_concrete_indented": "Platform Block (Lime Concrete)",
+  "block.bte.platform_lime_concrete_slab": "Platform Slab (Lime Concrete)",
+
+  "block.bte.platform_pink_concrete": "Platform Block (Pink Concrete)",
+  "block.bte.platform_pink_concrete_indented": "Platform Block (Pink Concrete)",
+  "block.bte.platform_pink_concrete_slab": "Platform Slab (Pink Concrete)",
+
+  "block.bte.platform_gray_concrete": "Platform Block (Grey Concrete)",
+  "block.bte.platform_gray_concrete_indented": "Platform Block (Grey Concrete)",
+  "block.bte.platform_gray_concrete_slab": "Platform Slab (Grey Concrete)",
+
+  "block.bte.platform_light_gray_concrete": "Platform Block (Light Grey Concrete)",
+  "block.bte.platform_light_gray_concrete_indented": "Platform Block (Light Grey Concrete)",
+  "block.bte.platform_light_gray_concrete_slab": "Platform Slab (Light Grey Concrete)",
+
+  "block.bte.platform_cyan_concrete": "Platform Block (Cyan Concrete)",
+  "block.bte.platform_cyan_concrete_indented": "Platform Block (Cyan Concrete)",
+  "block.bte.platform_cyan_concrete_slab": "Platform Slab (Cyan Concrete)",
+
+  "block.bte.platform_purple_concrete": "Platform Block (Purple Concrete)",
+  "block.bte.platform_purple_concrete_indented": "Platform Block (Purple Concrete)",
+  "block.bte.platform_purple_concrete_slab": "Platform Slab (Purple Concrete)",
+
+  "block.bte.platform_blue_concrete": "Platform Block (Blue Concrete)",
+  "block.bte.platform_blue_concrete_indented": "Platform Block (Blue Concrete)",
+  "block.bte.platform_blue_concrete_slab": "Platform Slab (Blue Concrete)",
+
+  "block.bte.platform_brown_concrete": "Platform Block (Brown Concrete)",
+  "block.bte.platform_brown_concrete_indented": "Platform Block (Brown Concrete)",
+  "block.bte.platform_brown_concrete_slab": "Platform Slab (Brown Concrete)",
+
+  "block.bte.platform_green_concrete": "Platform Block (Green Concrete)",
+  "block.bte.platform_green_concrete_indented": "Platform Block (Green Concrete)",
+  "block.bte.platform_green_concrete_slab": "Platform Slab (Green Concrete)",
+
+  "block.bte.platform_red_concrete": "Platform Block (Red Concrete)",
+  "block.bte.platform_red_concrete_indented": "Platform Block (Red Concrete)",
+  "block.bte.platform_red_concrete_slab": "Platform Slab (Red Concrete)",
+
+  "block.bte.platform_black_concrete": "Platform Block (Black Concrete)",
+  "block.bte.platform_black_concrete_indented": "Platform Block (Black Concrete)",
+  "block.bte.platform_black_concrete_slab": "Platform Slab (Black Concrete)",
 
   "block.bte.platform_quartz_block": "Platform Block (Quartz Block)",
   "block.bte.platform_quartz_block_indented": "Platform Block (Quartz Block)",
@@ -61,9 +121,9 @@
   "block.bte.platform_bone_indented": "Platform Block (Bone)",
   "block.bte.platform_bone_slab": "Platform Slab (Bone)",
 
-  "block.bte.platform_polished_blackstone": "Platform Block (Polished Black Stone)",
-  "block.bte.platform_polished_blackstone_indented": "Platform Block (Polished Black Stone)",
-  "block.bte.platform_polished_blackstone_slab": "Platform Slab (Polished Black Stone)",
+  "block.bte.platform_polished_blackstone": "Platform Block (Polished Blackstone)",
+  "block.bte.platform_polished_blackstone_indented": "Platform Block (Polished Blackstone)",
+  "block.bte.platform_polished_blackstone_slab": "Platform Slab (Polished Blackstone)",
 
   "block.bte.platform_smooth_basalt": "Platform Block (Smooth Basalt)",
   "block.bte.platform_smooth_basalt_indented": "Platform Block (Smooth Basalt)",
@@ -72,13 +132,5 @@
   "block.bte.platform_sea_lantern": "Platform Block (Sea Lantern)",
   "block.bte.platform_sea_lantern_indented": "Platform Block (Sea Lantern)",
   "block.bte.platform_sea_lantern_slab": "Platform Slab (Sea Lantern)"
-
-
-
-
-
-
-
-
 
 }
