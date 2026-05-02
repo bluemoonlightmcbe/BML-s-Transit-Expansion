@@ -1,0 +1,7 @@
+{
+    "parent": "bte:block/platform_rcc_slab_bottom",
+    "textures": {
+        "main": "bte:block/rcc/marble",
+        "top": "mtr:block/transparent"
+    }
+}

@@ -1,12 +1,25 @@
 {
   "itemGroup.bte.gate": "閘機",
 
+  "itemGroup.bte.gate.entrance": "閘機 (入口)",
+  "itemGroup.bte.gate.exit": "閘機 (出口)",
+  "itemGroup.bte.gate.cover": "閘機 (側蓋)",
+  "itemGroup.bte.gate.glass": "玻璃柵欄 (閘機專用)",
+
   "block.bte.gate_glass_fence_plain": "玻璃柵欄(左)(閘機專用)",
+  "tooltip.block.bte.gate_glass_fence_plain": "玻璃板",
   "block.bte.gate_glass_fence_right_plain": "玻璃柵欄(右)(閘機專用)",
+  "tooltip.block.bte.gate_glass_fence_right_plain": "玻璃板",
 
   "block.bte.gate_hk_c3025": "C3025閘機(入口)",
   "block.bte.gate_hk_c3025_exit": "C3025閘機(出口)",
   "block.bte.gate_hk_c3025_cover": "C3025閘機(側蓋)",
+  "block.bte.gate_hk_c1163": "C1163 閘機 (入口)",
+  "block.bte.gate_hk_c1163_exit": "C1163 閘機 (出口)",
+  "block.bte.gate_hk_c1163_cover": "C1163 閘機 (側蓋)",
+  "block.bte.gate_hk_c762": "C762 閘機 (入口)",
+  "block.bte.gate_hk_c762_exit": "C762 閘機 (出口)",
+  "block.bte.gate_hk_c762_cover": "C762 閘機 (側蓋)",
   "block.bte.gate_hk_c3025_wide": "C3025闊閘機(入口)",
   "block.bte.gate_hk_c3025_wide_exit": "C3025闊閘機(出口)",
 
@@ -105,6 +118,14 @@
   "block.bte.platform_light_blue_smooth_quartz_indented": "月台方塊 （藍色平滑石英）",
   "block.bte.platform_light_blue_smooth_quartz_slab": "月台半磚 （藍色平滑石英）",
 
+  "block.bte.platform_light_green_quartz_block": "月台方塊 （綠色石英）",
+  "block.bte.platform_light_green_quartz_block_indented": "月台方塊 （綠色石英）",
+  "block.bte.platform_light_green_quartz_block_slab": "月台半磚 （綠色石英）",
+
+  "block.bte.platform_light_green_smooth_quartz": "月台方塊 （綠色平滑石英）",
+  "block.bte.platform_light_green_smooth_quartz_indented": "月台方塊 （綠色平滑石英）",
+  "block.bte.platform_light_green_smooth_quartz_slab": "月台半磚 （綠色平滑石英）",
+
   "block.bte.platform_iron_block": "月台方塊 （鐵方塊）",
   "block.bte.platform_iron_block_indented": "月台方塊 （鐵方塊）",
   "block.bte.platform_iron_block_slab": "月台半磚 （鐵方塊）",
@@ -131,6 +152,10 @@
 
   "block.bte.platform_sea_lantern": "月台方塊 （海燈籠）",
   "block.bte.platform_sea_lantern_indented": "月台方塊 （海燈籠）",
-  "block.bte.platform_sea_lantern_slab": "月台半磚 （海燈籠）"
+  "block.bte.platform_sea_lantern_slab": "月台半磚 （海燈籠）",
+
+  "block.bte.platform_rcc": "RCC - 經典月台方塊",
+  "block.bte.platform_rcc_indented": "RCC - 經典月台方塊",
+  "block.bte.platform_rcc_slab": "RCC - 經典月台半磚"
 
 }

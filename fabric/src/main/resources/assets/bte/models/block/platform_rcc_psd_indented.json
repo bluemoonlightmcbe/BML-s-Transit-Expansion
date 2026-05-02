@@ -1,0 +1,9 @@
+ {
+    "parent": "bte:block/platform_rcc_indented",
+    "textures": {
+        "main": "bte:block/rcc/marble",
+        "inner": "bte:block/rcc/marble",
+        "front": "bte:block/rcc/marble",
+        "top": "mtr:block/transparent"
+    }
+}

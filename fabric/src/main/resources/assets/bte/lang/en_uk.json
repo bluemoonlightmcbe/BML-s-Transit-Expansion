@@ -1,12 +1,25 @@
 {
   "itemGroup.bte.gate": "Gate",
 
+  "itemGroup.bte.gate.entrance": "Gate (Entrance)",
+  "itemGroup.bte.gate.exit": "Gate (Exit)",
+  "itemGroup.bte.gate.cover": "Gate (Cover)",
+  "itemGroup.bte.gate.glass": "Glass Fence (Gate Only)",
+
   "block.bte.gate_glass_fence_plain": "Glass Fence (Left) (Gate Only)",
+  "tooltip.block.bte.gate_glass_fence_plain": "Glass Panel",
   "block.bte.gate_glass_fence_right_plain": "Glass Fence (Right) (glass_fence_plain)",
+  "tooltip.block.bte.gate_glass_fence_right_plain": "Glass Panel",
 
   "block.bte.gate_hk_c3025": "C3025 Gate (Entrance)",
   "block.bte.gate_hk_c3025_exit": "C3025 Gate (Exit)",
   "block.bte.gate_hk_c3025_cover": "C3025 Gate (Cover)",
+  "block.bte.gate_hk_c1163": "C1163 Gate (Entrance)",
+  "block.bte.gate_hk_c1163_exit": "C1163 Gate (Exit)",
+  "block.bte.gate_hk_c1163_cover": "C1163 Gate (Cover)",
+  "block.bte.gate_hk_c762": "C762 Gate (Entrance)",
+  "block.bte.gate_hk_c762_exit": "C762 Gate (Exit)",
+  "block.bte.gate_hk_c762_cover": "C762 Gate (Cover)",
   "block.bte.gate_hk_c3025_wide": "C3025 Wide Gate (Entrance)",
   "block.bte.gate_hk_c3025_wide_exit": "C3025 Wide Gate (Exit)",
 
@@ -105,6 +118,14 @@
   "block.bte.platform_light_blue_smooth_quartz_indented": "Platform Block (Light Blue Smooth Quartz)",
   "block.bte.platform_light_blue_smooth_quartz_slab": "Platform Slab (Light Blue Smooth Quartz)",
 
+  "block.bte.platform_light_green_quartz_block": "Platform Block (Light Green Quartz Block)",
+  "block.bte.platform_light_green_quartz_block_indented": "Platform Block (Light Green Quartz Block)",
+  "block.bte.platform_light_green_quartz_block_slab": "Platform Slab (Light Green Quartz Block)",
+
+  "block.bte.platform_light_green_smooth_quartz": "Platform Block (Light Green Smooth Quartz)",
+  "block.bte.platform_light_green_smooth_quartz_indented": "Platform Block (Light Green Smooth Quartz)",
+  "block.bte.platform_light_green_smooth_quartz_slab": "Platform Slab (Light Green Smooth Quartz)",
+
   "block.bte.platform_iron_block": "Platform Block (Iron Block)",
   "block.bte.platform_iron_block_indented": "Platform Block (Iron Block)",
   "block.bte.platform_iron_block_slab": "Platform Slab (Iron Block)",
@@ -131,6 +152,10 @@
 
   "block.bte.platform_sea_lantern": "Platform Block (Sea Lantern)",
   "block.bte.platform_sea_lantern_indented": "Platform Block (Sea Lantern)",
-  "block.bte.platform_sea_lantern_slab": "Platform Slab (Sea Lantern)"
+  "block.bte.platform_sea_lantern_slab": "Platform Slab (Sea Lantern)",
+
+  "block.bte.platform_rcc": "RCC - Classic Platform Block",
+  "block.bte.platform_rcc_indented": "RCC - Classic Platform Block",
+  "block.bte.platform_rcc_slab": "RCC - Classic Platform Slab"
 
 }
