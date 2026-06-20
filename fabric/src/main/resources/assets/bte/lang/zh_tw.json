@@ -3,25 +3,37 @@
 
   "itemGroup.bte.gate.entrance": "閘機 (入口)",
   "itemGroup.bte.gate.exit": "閘機 (出口)",
-  "itemGroup.bte.gate.cover": "閘機 (側蓋)",
+  "itemGroup.bte.gate.cover": "閘機 (側殼)",
   "itemGroup.bte.gate.glass": "玻璃柵欄 (閘機專用)",
 
   "block.bte.gate_glass_fence_plain": "玻璃柵欄(左)(閘機專用)",
   "tooltip.block.bte.gate_glass_fence_plain": "玻璃板",
   "block.bte.gate_glass_fence_right_plain": "玻璃柵欄(右)(閘機專用)",
   "tooltip.block.bte.gate_glass_fence_right_plain": "玻璃板",
+  "block.bte.glass_fence_corner_inner": "玻璃柵欄轉角(內)",
+  "tooltip.block.bte.glass_fence_corner_inner": "玻璃板",
+  "block.bte.glass_fence_corner_outer": "玻璃柵欄轉角(外)",
+  "tooltip.block.bte.glass_fence_corner_outer": "玻璃板",
 
   "block.bte.gate_hk_c3025": "C3025閘機(入口)",
   "block.bte.gate_hk_c3025_exit": "C3025閘機(出口)",
-  "block.bte.gate_hk_c3025_cover": "C3025閘機(側蓋)",
+  "block.bte.gate_hk_c3025_cover": "C3025閘機(側殼)",
+  "block.bte.gate_hk_c5781": "C5781閘機(入口)",
+  "block.bte.gate_hk_c5781_exit": "C5781閘機(出口)",
+  "block.bte.gate_hk_c5781_cover": "C5781閘機(側殼)",
   "block.bte.gate_hk_c1163": "C1163 閘機 (入口)",
   "block.bte.gate_hk_c1163_exit": "C1163 閘機 (出口)",
-  "block.bte.gate_hk_c1163_cover": "C1163 閘機 (側蓋)",
+  "block.bte.gate_hk_c1163_cover": "C1163 閘機 (側殼)",
   "block.bte.gate_hk_c762": "C762 閘機 (入口)",
   "block.bte.gate_hk_c762_exit": "C762 閘機 (出口)",
-  "block.bte.gate_hk_c762_cover": "C762 閘機 (側蓋)",
+  "block.bte.gate_hk_c762_cover": "C762 閘機 (側殼)",
+
   "block.bte.gate_hk_c3025_wide": "C3025闊閘機(入口)",
   "block.bte.gate_hk_c3025_wide_exit": "C3025闊閘機(出口)",
+  "block.bte.gate_hk_c3025_wide_fake": "C3025闊閘機(裝飾)",
+  "block.bte.gate_hk_c5781_wide": "C5781闊閘機(入口)",
+  "block.bte.gate_hk_c5781_wide_exit": "C5781闊閘機(出口)",
+  "block.bte.gate_hk_c5781_wide_fake": "C5781闊閘機(裝飾)",
 
 
   "itemGroup.bte.platform": "月台方塊",
@@ -157,5 +169,4 @@
   "block.bte.platform_rcc": "RCC - 經典月台方塊",
   "block.bte.platform_rcc_indented": "RCC - 經典月台方塊",
   "block.bte.platform_rcc_slab": "RCC - 經典月台半磚"
-
 }

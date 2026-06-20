@@ -1,6 +1,6 @@
 package net.bte.mod;
 
-import net.bte.Filters.RegisterItem;
+import net.bte.Filters.FilterRegister;
 import org.mtr.mapping.holder.RenderLayer;
 import org.mtr.mapping.registry.RegistryClient;
 
@@ -11,7 +11,6 @@ public class InitClient {
 	public static final RegistryClient REGISTRY_CLIENT = new RegistryClient(Init.REGISTRY);
 
 	public static void init() {
-		RegisterItem.Filters.init();
 
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_WHITE_CONCRETE);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_WHITE_CONCRETE_INDENTED);
@@ -125,9 +124,13 @@ public class InitClient {
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RCC);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RCC_INDENTED);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.PLATFORM_RCC_SLAB);
-		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025);
-		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025_EXIT);
-		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025_COVER);
+
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C3025);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C3025_EXIT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C3025_COVER);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C5781);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C5781_EXIT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(), Blocks.GATE_HK_C5781_COVER);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C1163);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C1163_EXIT);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C1163_COVER);
@@ -136,12 +139,21 @@ public class InitClient {
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C762_COVER);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025_WIDE);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025_WIDE_EXIT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C3025_WIDE_FAKE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C5781_WIDE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C5781_WIDE_EXIT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_HK_C5781_WIDE_FAKE);
+
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_GLASS_FENCE_PLAIN);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GATE_GLASS_FENCE_RIGHT_PLAIN);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GLASS_FENCE_CORNER_INNER);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getTranslucent(), Blocks.GLASS_FENCE_CORNER_OUTER);
 
 
 
 		REGISTRY_CLIENT.init();
+
+		FilterRegister.Filters.init();
 	}
 
 

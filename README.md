@@ -1,8 +1,33 @@
 # BML's Transit Expansion
-A mod for the Minecraft Transit Railway mod and add somethings that mainly about platform
+BML's Transit Expansion is an expansion mod for the MTR mod. This mod adds new custom gates and new platform blocks. You can refer to the video on Bilibili for more details.
 
-![Custom Gate](https://cdn.modrinth.com/data/cached_images/8a469401c31f4b6e3d1c884799533224c9b534aa_0.webp)
+# ChangeLog for version 1.1.0 Beta 1
+### What's added
+- Gate (C5781, C5781 wide)
+- Decorative wide gate (C3025, C5781)
+- Glass Fence Corner Block (Inner, Outer)
+- You can now use the brush to edit the state of the decorative wide gate
+- You can now use the brush to edit the door type of the platform block
+- Improved RAM usage when this mod is installed
+- Redesigned the glass layer for Gate C3025
+- Added "L" and "R" labels for the Gate Glass Fence
+### What's removed
+- Platform Block's nbt : "Style"
+### What's fixed
+- Some of the layers shown in Gate C3025 might be transparent
+- High RAM usage when using this mod
+# Dependencies
+### Fabric
+- [Minecraft Transit Railway](https://modrinth.com/mod/minecraft-transit-railway) v4.0.0 or above
+- [Joban Client Mod](https://modrinth.com/mod/jcm) v2.0.0 or above
+- [Filters API](https://modrinth.com/mod/filters-api) v1.0.0 or above
+### Forge
+- [Minecraft Transit Railway](https://modrinth.com/mod/minecraft-transit-railway) v4.0.0 or above
+- [Joban Client Mod](https://modrinth.com/mod/jcm) v2.0.0 or above
 
+
+
+---
 ## Setup
 
 1. Clone this repository

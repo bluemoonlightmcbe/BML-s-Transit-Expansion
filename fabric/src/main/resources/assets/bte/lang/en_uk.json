@@ -8,20 +8,32 @@
 
   "block.bte.gate_glass_fence_plain": "Glass Fence (Left) (Gate Only)",
   "tooltip.block.bte.gate_glass_fence_plain": "Glass Panel",
-  "block.bte.gate_glass_fence_right_plain": "Glass Fence (Right) (glass_fence_plain)",
+  "block.bte.gate_glass_fence_right_plain": "Glass Fence (Right) (Gate Only)",
   "tooltip.block.bte.gate_glass_fence_right_plain": "Glass Panel",
+  "block.bte.glass_fence_corner_inner": "Glass Fence Corner (Inner)",
+  "tooltip.block.bte.glass_fence_corner_inner": "Glass Panel",
+  "block.bte.glass_fence_corner_outer": "Glass Fence Corner (Outer)",
+  "tooltip.block.bte.glass_fence_corner_outer": "Glass Panel",
 
   "block.bte.gate_hk_c3025": "C3025 Gate (Entrance)",
   "block.bte.gate_hk_c3025_exit": "C3025 Gate (Exit)",
   "block.bte.gate_hk_c3025_cover": "C3025 Gate (Cover)",
+  "block.bte.gate_hk_c5781": "C5781 Gate (Entrance)",
+  "block.bte.gate_hk_c5781_exit": "C5781 Gate (Exit)",
+  "block.bte.gate_hk_c5781_cover": "C5781 Gate (Cover)",
   "block.bte.gate_hk_c1163": "C1163 Gate (Entrance)",
   "block.bte.gate_hk_c1163_exit": "C1163 Gate (Exit)",
   "block.bte.gate_hk_c1163_cover": "C1163 Gate (Cover)",
   "block.bte.gate_hk_c762": "C762 Gate (Entrance)",
   "block.bte.gate_hk_c762_exit": "C762 Gate (Exit)",
   "block.bte.gate_hk_c762_cover": "C762 Gate (Cover)",
+
   "block.bte.gate_hk_c3025_wide": "C3025 Wide Gate (Entrance)",
   "block.bte.gate_hk_c3025_wide_exit": "C3025 Wide Gate (Exit)",
+  "block.bte.gate_hk_c3025_wide_fake": "C3025 Wide Gate (Decorative)",
+  "block.bte.gate_hk_c5781_wide": "C5781 Wide Gate (Entrance)",
+  "block.bte.gate_hk_c5781_wide_exit": "C5781 Wide Gate (Exit)",
+  "block.bte.gate_hk_c5781_wide_fake": "C5781 Wide Gate (Decorative)",
 
 
   "itemGroup.bte.platform": "Platform Block",
@@ -157,5 +169,4 @@
   "block.bte.platform_rcc": "RCC - Classic Platform Block",
   "block.bte.platform_rcc_indented": "RCC - Classic Platform Block",
   "block.bte.platform_rcc_slab": "RCC - Classic Platform Slab"
-
 }

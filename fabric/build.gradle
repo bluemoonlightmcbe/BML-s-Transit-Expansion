@@ -32,6 +32,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${buildTools.getFabricApiVersion()}"
 	modImplementation "maven.modrinth:minecraft-transit-railway:FABRIC-${mtrVersion}+${minecraftVersion}"
 	modImplementation "maven.modrinth:jcm:v${jcmVersion}+${minecraftVersion}"
+	annotationProcessor 'systems.manifold:manifold-preprocessor:+'
 }
 
 repositories {

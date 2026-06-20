@@ -42,30 +42,23 @@ dependencies {
 	annotationProcessor "org.spongepowered:mixin:+:processor"
 	implementation fg.deobf("maven.modrinth:minecraft-transit-railway:FORGE-${mtrVersion}+${minecraftVersion}")
 	implementation fg.deobf("maven.modrinth:jcm:v${jcmVersion}+${minecraftVersion}")
-	//implementation fg.deobf("maven.modrinth:filters-api:${filterAPIVersion}+${minecraftVersion}")
-
-	//compileOnly 'systems.manifold:manifold-preprocessor:2025.1.1'
-	//annotationProcessor 'systems.manifold:manifold-preprocessor:+'
+	annotationProcessor 'systems.manifold:manifold-preprocessor:+'
 }
 
 //Filter API
-/*tasks.withType(JavaCompile).configureEach {
-	def versionParts = minecraftVersion.split("\\.")
-	def major = versionParts[0]
-	def minor = versionParts[1]
-	def patch = versionParts.length > 2 ? versionParts[2].padLeft(2, '0') : "00"
-	def versionInt = "${major}${minor}${patch}"
+repositories {
+	maven { url = "https://maven.ziyuesinicization.site/releases/" }
+}
 
-	options.compilerArgs += [
-			"-Xplugin:Manifold",
-			"-AMC_VERSION=${versionInt}"
-	]
-}*/
+dependencies {
+	implementation(fg.deobf("ziyue.filters:filters-forge:${filterAPIVersion}+${minecraftVersion}")) {
+		exclude(group: "net.minecraftforge")
+	}
+}
 
 tasks.named('javadoc') {
 	enabled = false
 }
-//---
 
 mixin {
 	add sourceSets.main, "mtr.refmap.json"

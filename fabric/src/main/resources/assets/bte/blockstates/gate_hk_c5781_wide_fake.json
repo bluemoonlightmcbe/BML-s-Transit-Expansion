@@ -1,0 +1,64 @@
+{
+	"variants": {
+		"facing=north,withcover=0": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_0"
+		},
+		"facing=east,withcover=0": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_0",
+			"y": 90
+		},
+		"facing=south,withcover=0": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_0",
+			"y": 180
+		},
+		"facing=west,withcover=0": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_0",
+			"y": 270
+		},
+		"facing=north,withcover=1": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_1"
+		},
+		"facing=east,withcover=1": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_1",
+			"y": 90
+		},
+		"facing=south,withcover=1": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_1",
+			"y": 180
+		},
+		"facing=west,withcover=1": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_1",
+			"y": 270
+		},
+		"facing=north,withcover=2": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_2"
+		},
+		"facing=east,withcover=2": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_2",
+			"y": 90
+		},
+		"facing=south,withcover=2": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_2",
+			"y": 180
+		},
+		"facing=west,withcover=2": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_2",
+			"y": 270
+		},
+		"facing=north,withcover=3": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_3"
+		},
+		"facing=east,withcover=3": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_3",
+			"y": 90
+		},
+		"facing=south,withcover=3": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_3",
+			"y": 180
+		},
+		"facing=west,withcover=3": {
+			"model": "bte:block/gate_hk_c5781_wide_fake_3",
+			"y": 270
+		}
+	}
+}

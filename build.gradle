@@ -20,6 +20,21 @@ subprojects {
         maven { url "https://jitpack.io" }
     }
 
+
+    //---
+    def mc_ver = rootProject.properties.minecraftVersion
+    def mc_major = mc_ver.split("\\.")[0]
+    def mc_main = mc_ver.split("\\.")[1]
+    def mc_minor = mc_ver.split("\\.").size() > 2 ? (mc_ver.split("\\.")[2] as String).padLeft(2, '0') : 0
+    def merged_mc_version = "$mc_major$mc_main$mc_minor"
+
+
+    /* Manifold support */
+    tasks.withType(JavaCompile).forEach {
+        it.options.compilerArgs += ["-Xplugin:Manifold", "-AMC_VERSION=$merged_mc_version"]
+    }
+    //---
+
     tasks.withType(Javadoc).tap {
         configureEach { javadoc.options.addStringOption("Xdoclint:none", "-quiet") }
     }

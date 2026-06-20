@@ -1,10 +1,10 @@
 package net.bte.mod;
 
-
-
-import com.lx862.jcm.mod.block.APGDoorDRL;
-import com.lx862.jcm.mod.registry.JCMRegistry;
 import net.bte.mod.blocks.Gate.*;
+import net.bte.mod.blocks.GlassFence.GlassFenceCornerInner;
+import net.bte.mod.blocks.GlassFence.GlassFenceCornerOuter;
+import net.bte.mod.blocks.GlassFence.GlassFenceGateLeft;
+import net.bte.mod.blocks.GlassFence.GlassFenceGateRight;
 import net.bte.mod.blocks.platform.BlockPlatform;
 import net.bte.mod.blocks.platform.BlockPlatformSlab;
 import org.mtr.mapping.holder.Block;
@@ -156,6 +156,12 @@ public final class Blocks {
             return 5;
         }).strength(4.0f).nonOpaque())), CreativeModeTabs.MOD_GATE);
 
+		GATE_HK_C5781 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781"), () -> new Block(new GateTicketBarrier(true)), CreativeModeTabs.MOD_GATE);
+        GATE_HK_C5781_EXIT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781_exit"), () -> new Block(new GateTicketBarrier(false)), CreativeModeTabs.MOD_GATE);
+        GATE_HK_C5781_COVER = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781_cover"), () -> new Block(new GateTicketBarrierBareBlock(createDefaultBlockSettings(true, (blockState) -> {
+            return 5;
+        }).strength(4.0f).nonOpaque())), CreativeModeTabs.MOD_GATE);
+
 		GATE_HK_C1163 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c1163"), () -> new Block(new GateTicketBarrier(true)), CreativeModeTabs.MOD_GATE);
 		GATE_HK_C1163_EXIT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c1163_exit"), () -> new Block(new GateTicketBarrier(false)), CreativeModeTabs.MOD_GATE);
 		GATE_HK_C1163_COVER = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c1163_cover"), () -> new Block(new GateTicketBarrierBareBlock(createDefaultBlockSettings(true, (blockState) -> {
@@ -169,9 +175,20 @@ public final class Blocks {
 
         GATE_HK_C3025_WIDE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c3025_wide"), () -> new Block(new GateWideTicketBarrier(true)), CreativeModeTabs.MOD_GATE);
 		GATE_HK_C3025_WIDE_EXIT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c3025_wide_exit"), () -> new Block(new GateWideTicketBarrier(false)), CreativeModeTabs.MOD_GATE);
+		GATE_HK_C3025_WIDE_FAKE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c3025_wide_fake"), () -> new Block(new GateWideFake(createDefaultBlockSettings(true, (blockState) -> {
+			return 5;
+		}).strength(4.0f).nonOpaque())), CreativeModeTabs.MOD_GATE);
 
-		GATE_GLASS_FENCE_PLAIN = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_glass_fence_plain"), () -> new Block(new GateGlassFenceLeft()), CreativeModeTabs.MOD_GATE);
-		GATE_GLASS_FENCE_RIGHT_PLAIN = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_glass_fence_right_plain"), () -> new Block(new GateGlassFenceRight()), CreativeModeTabs.MOD_GATE);
+		GATE_HK_C5781_WIDE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781_wide"), () -> new Block(new GateWideTicketBarrier(true)), CreativeModeTabs.MOD_GATE);
+		GATE_HK_C5781_WIDE_EXIT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781_wide_exit"), () -> new Block(new GateWideTicketBarrier(false)), CreativeModeTabs.MOD_GATE);
+		GATE_HK_C5781_WIDE_FAKE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_hk_c5781_wide_fake"), () -> new Block(new GateWideFake(createDefaultBlockSettings(true, (blockState) -> {
+			return 5;
+		}).strength(4.0f).nonOpaque())), CreativeModeTabs.MOD_GATE);
+
+		GATE_GLASS_FENCE_PLAIN = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_glass_fence_plain"), () -> new Block(new GlassFenceGateLeft()), CreativeModeTabs.MOD_GATE);
+		GATE_GLASS_FENCE_RIGHT_PLAIN = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "gate_glass_fence_right_plain"), () -> new Block(new GlassFenceGateRight()), CreativeModeTabs.MOD_GATE);
+		GLASS_FENCE_CORNER_INNER = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "glass_fence_corner_inner"), () -> new Block(new GlassFenceCornerInner()), CreativeModeTabs.MOD_GATE);
+		GLASS_FENCE_CORNER_OUTER = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "glass_fence_corner_outer"), () -> new Block(new GlassFenceCornerOuter()), CreativeModeTabs.MOD_GATE);
 
 
 
@@ -273,9 +290,13 @@ public final class Blocks {
 	public static final BlockRegistryObject PLATFORM_RCC;
 	public static final BlockRegistryObject PLATFORM_RCC_INDENTED;
 	public static final BlockRegistryObject PLATFORM_RCC_SLAB;
+
     public static final BlockRegistryObject GATE_HK_C3025;
     public static final BlockRegistryObject GATE_HK_C3025_EXIT;
     public static final BlockRegistryObject GATE_HK_C3025_COVER;
+    public static final BlockRegistryObject GATE_HK_C5781;
+	public static final BlockRegistryObject GATE_HK_C5781_EXIT;
+    public static final BlockRegistryObject GATE_HK_C5781_COVER;
 	public static final BlockRegistryObject GATE_HK_C1163;
 	public static final BlockRegistryObject GATE_HK_C1163_EXIT;
 	public static final BlockRegistryObject GATE_HK_C1163_COVER;
@@ -284,8 +305,15 @@ public final class Blocks {
 	public static final BlockRegistryObject GATE_HK_C762_COVER;
 	public static final BlockRegistryObject GATE_HK_C3025_WIDE;
 	public static final BlockRegistryObject GATE_HK_C3025_WIDE_EXIT;
+	public static final BlockRegistryObject GATE_HK_C3025_WIDE_FAKE;
+	public static final BlockRegistryObject GATE_HK_C5781_WIDE;
+	public static final BlockRegistryObject GATE_HK_C5781_WIDE_EXIT;
+	public static final BlockRegistryObject GATE_HK_C5781_WIDE_FAKE;
+
 	public static final BlockRegistryObject GATE_GLASS_FENCE_PLAIN;
 	public static final BlockRegistryObject GATE_GLASS_FENCE_RIGHT_PLAIN;
+	public static final BlockRegistryObject GLASS_FENCE_CORNER_INNER;
+	public static final BlockRegistryObject GLASS_FENCE_CORNER_OUTER;
 
 
 	public static void init() {

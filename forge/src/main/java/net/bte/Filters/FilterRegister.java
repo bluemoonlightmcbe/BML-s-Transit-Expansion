@@ -1,8 +1,7 @@
 package net.bte.Filters;
 
 
-public class RegisterItem {
-
+public class FilterRegister {
     public interface Filters {
         static void init() {
         }

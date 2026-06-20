@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"metal": "mtr:block/metal",
+		"particle": "block/glass"
+	},
+	"elements": [
+		{
+			"name": "Left side",
+			"from": [0, 0, 0],
+			"to": [3, 16, 3],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "texture": "#metal"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#metal"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#metal"},
+				"west": {"uv": [0, 0, 3, 16], "texture": "#metal"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#metal"},
+				"down": {"uv": [0, 13, 3, 16], "texture": "#metal"}
+			}
+		}
+	]
+}

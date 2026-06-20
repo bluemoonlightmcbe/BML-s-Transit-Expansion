@@ -26,5 +26,10 @@
 		"mtr": ">=4.0.0 <4.1",
 		"jsblock": ">=2.0.0",
 		"filters": ">=1.0.0"
+	},
+	"contact": {
+		"homepage": "https://modrinth.com/mod/bte",
+		"sources": "https://github.com/bluemoonlightmcbe/BML-s-Transit-Expansion",
+		"issues": "https://github.com/bluemoonlightmcbe/BML-s-Transit-Expansion/issues"
 	}
 }
