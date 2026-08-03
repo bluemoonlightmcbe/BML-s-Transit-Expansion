@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a report to help us improve (Accept Chinese and English)
 title: ''
 labels: bug
-assignees: ''
+assignees: bluemoonlightmcbe
 
 ---
 
