@@ -1,5 +1,6 @@
 # BML's Transit Expansion
 BML's Transit Expansion is an expansion mod for the MTR mod. This mod adds new custom gates and new platform blocks. You can refer to the video on Bilibili for more details.
+![Custom Gate](https://cdn.modrinth.com/data/cached_images/8a469401c31f4b6e3d1c884799533224c9b534aa_0.webp)
 
 # ChangeLog for version 1.1.0 Beta 1
 ### What's added
