@@ -1,6 +1,6 @@
+![Custom Gate](https://cdn.modrinth.com/data/cached_images/8a469401c31f4b6e3d1c884799533224c9b534aa_0.webp)
 # BML's Transit Expansion
 BML's Transit Expansion is an expansion mod for the MTR mod. This mod adds new custom gates and new platform blocks. You can refer to the video on Bilibili for more details.
-![Custom Gate](https://cdn.modrinth.com/data/cached_images/8a469401c31f4b6e3d1c884799533224c9b534aa_0.webp)
 
 # ChangeLog for version 1.1.0 Beta 1
 ### What's added
@@ -26,7 +26,10 @@ BML's Transit Expansion is an expansion mod for the MTR mod. This mod adds new c
 - [Minecraft Transit Railway](https://modrinth.com/mod/minecraft-transit-railway) v4.0.0 or above
 - [Joban Client Mod](https://modrinth.com/mod/jcm) v2.0.0 or above
 
+# Translation
+BML's Transit Expansion mod is being translated using ZiYue Weblate. ZiYue Weblate is a self-hosted Weblate, a web tool designed to ease translating for both developers and translators.
 
+https://weblate.ziyuesinicization.site/projects/bte/
 
 ---
 ## Setup
@@ -43,6 +46,7 @@ BML's Transit Expansion is an expansion mod for the MTR mod. This mod adds new c
 1. Sync the Gradle project
 2. Run the Gradle `build` task
 
+## Credits
 This mod's code is based on [MTR-Russian-Metro-Addon](https://github.com/WerySkok/MTR-Russian-Metro-Addon).
 
 ## License
