@@ -1,1 +1,24 @@
-{}
+{
+    "itemGroup.bte.gate": "Brama",
+    "itemGroup.bte.gate.entrance": "Brama (Wejście)",
+    "itemGroup.bte.gate.exit": "Brama (Wyjście)",
+    "itemGroup.bte.gate.cover": "Brama (Obudowa)",
+    "block.bte.gate_hk_c3025": "Brama C3025 (Wejście)",
+    "block.bte.gate_hk_c3025_exit": "Brama C3025 (Wyjście)",
+    "block.bte.gate_hk_c3025_cover": "Brama C3025 (Obudowa)",
+    "block.bte.gate_hk_c5781": "Brama C5781 (Wejście)",
+    "block.bte.gate_hk_c5781_exit": "Brama C5781 (Wyjście)",
+    "block.bte.gate_hk_c5781_cover": "Brama C5781 (Obudowa)",
+    "block.bte.gate_hk_c1163": "Brama C1163 (Wejście)",
+    "block.bte.gate_hk_c1163_exit": "Brama C1163 (Wyjście)",
+    "block.bte.gate_hk_c1163_cover": "Brama C1163 (Obudowa)",
+    "block.bte.gate_hk_c762": "Brama C762 (Wejście)",
+    "block.bte.gate_hk_c762_exit": "Brama C762 (Wyjście)",
+    "block.bte.gate_hk_c762_cover": "Brama C762 (Obudowa)",
+    "block.bte.gate_hk_c3025_wide": "Szeroka Brama C3025 (Wejście)",
+    "block.bte.gate_hk_c3025_wide_exit": "Szeroka Brama C3025 (Wyjście)",
+    "block.bte.gate_hk_c3025_wide_fake": "Szeroka Brama C3025 (Dekoracyjna)",
+    "block.bte.gate_hk_c5781_wide": "Szeroka Brama C5781 (Wejście)",
+    "block.bte.gate_hk_c5781_wide_exit": "Szeroka Brama C5781 (Wyjście)",
+    "block.bte.gate_hk_c5781_wide_fake": "Szeroka Brama C5781 (Dekoracyjna)"
+}
